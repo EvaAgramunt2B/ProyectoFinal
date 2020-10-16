@@ -1,27 +1,3 @@
-using System;
-using UnityEditor.Rendering.HighDefinition;
-using UnityEditor.VFX;
-using UnityEngine;
-using UnityEngine.Rendering.HighDefinition;
-
-namespace UnityEditor.VFX.HDRP
-{
-    class VFXHDRPBinder : VFXSRPBinder
-    {
-        public override string templatePath     { get { return "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Shaders"; } }
-        public override string runtimePath      { get { return "Packages/com.unity.render-pipelines.high-definition/Runtime/VFXGraph/Shaders"; } }
-
-        public override string SRPAssetTypeStr  { get { return typeof(HDRenderPipelineAsset).Name; } }
-        public override Type SRPOutputDataType  { get { return typeof(VFXHDRPSubOutput); } }
-
-        public override void SetupMaterial(Material mat)
-        {
-            try
-            {
-                HDShaderUtils.ResetMaterialKeywords(mat);
-            }
-            catch(ArgumentException) // Silently catch the 'Unknown shader' in case of non HDRP shaders
-            {}
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:690e4860dced7d49fc2979a38df28170f9334a336cc50d7361884e9410a3b45d
+size 1047

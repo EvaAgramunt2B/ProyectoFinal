@@ -1,30 +1,3 @@
-using System.Collections.Generic;
-using UnityEngine.Assertions;
-
-namespace UnityEngine.Rendering.HighDefinition
-{
-    struct HDProbeCullingResults
-    {
-        static readonly IReadOnlyList<HDProbe> s_EmptyList = new List<HDProbe>();
-
-        List<HDProbe> m_VisibleProbes;
-
-        public IReadOnlyList<HDProbe> visibleProbes => m_VisibleProbes ?? s_EmptyList;
-        internal List<HDProbe> writeableVisibleProbes => m_VisibleProbes;
-
-        internal void Reset()
-        {
-            if (m_VisibleProbes == null)
-                m_VisibleProbes = new List<HDProbe>();
-            else
-                m_VisibleProbes.Clear();
-        }
-
-        internal void Set(List<HDProbe> visibleProbes)
-        {
-            Assert.IsNotNull(m_VisibleProbes);
-
-            m_VisibleProbes.AddRange(visibleProbes);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad31cce87502a822080b37dfa0f4360bd3ae58a97c4983d04ac093f5ee035521
+size 857

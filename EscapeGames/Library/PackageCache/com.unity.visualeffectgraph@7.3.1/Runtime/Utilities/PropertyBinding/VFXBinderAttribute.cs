@@ -1,28 +1,3 @@
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace UnityEngine.VFX.Utility
-{
-    /// <summary>
-    /// A ClassAttribute for use with VFXBinderBase in order to set the Add Menu Path in Inspector.
-    /// </summary>
-    [AttributeUsage(AttributeTargets.Class)]
-    public class VFXBinderAttribute : PropertyAttribute
-    {
-        /// <summary>
-        /// The Specified Menu Path for this VFXBinder
-        /// </summary>
-        public string MenuPath;
-
-        /// <summary>
-        /// Specifies a Add Menu Path for this VFXBinder.
-        /// </summary>
-        /// <param name="menuPath"></param>
-        public VFXBinderAttribute(string menuPath)
-        {
-            MenuPath = menuPath;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:90bc5decd5341383dc5af23bb989de87431c8c1c8c709cac22bf4c41f874ae4b
+size 787

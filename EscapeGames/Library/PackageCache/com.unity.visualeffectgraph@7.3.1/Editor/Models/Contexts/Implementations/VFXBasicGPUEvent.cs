@@ -1,34 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX
-{
-    [VFXType]
-    struct GPUEvent
-    {
-        /* expected emptiness */
-    };
-
-    [VFXInfo(experimental = true)]
-    class VFXBasicGPUEvent : VFXContext
-    {
-        public VFXBasicGPUEvent() : base(VFXContextType.SpawnerGPU, VFXDataType.None, VFXDataType.SpawnEvent) {}
-        public override string name { get { return "GPUEvent"; } }
-
-        public class InputProperties
-        {
-            public GPUEvent evt = new GPUEvent();
-        }
-
-        public override VFXExpressionMapper GetExpressionMapper(VFXDeviceTarget target)
-        {
-            return new VFXExpressionMapper();
-        }
-
-        public override bool CanBeCompiled()
-        {
-            return outputContexts.Any(c => c.CanBeCompiled());
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a67f9af5aa5c73af04e8b866b91ffe3f4eda6f15613bd9ec8895d09c53069d34
+size 857

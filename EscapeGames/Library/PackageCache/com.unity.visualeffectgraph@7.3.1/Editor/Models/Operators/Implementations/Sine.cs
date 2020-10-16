@@ -1,22 +1,3 @@
-using System;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Trigonometry")]
-    class Sine : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0.0f;
-        }
-
-        protected override sealed string operatorName { get { return "Sine"; } }
-
-        protected override sealed ValidTypeRule typeFilter { get { return ValidTypeRule.allowEverythingExceptIntegerAndDirection; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionSin(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc0ecabe8696fce20631293e906d723fc789c209ee84fac66d501c1447a14e2e
+size 677

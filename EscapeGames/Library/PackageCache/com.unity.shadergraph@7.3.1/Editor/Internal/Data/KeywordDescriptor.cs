@@ -1,15 +1,3 @@
-﻿using System.Collections.Generic;
-
-namespace UnityEditor.ShaderGraph.Internal
-{
-    public struct KeywordDescriptor
-    {
-        public string displayName;
-        public string referenceName;
-        public KeywordType type;
-        public KeywordDefinition definition;
-        public KeywordScope scope;
-        public int value;
-        public KeywordEntry[] entries;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4863a9aadee5f1efb73b117ff56e83dc7fc13dfc338c341cb8ad945028d84a2
+size 398

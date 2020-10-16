@@ -1,31 +1,3 @@
-using System;
-using UnityEditor.Graphing;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Serializable]
-    class Texture3DMaterialSlot : MaterialSlot
-    {
-        public Texture3DMaterialSlot()
-        {}
-
-        public Texture3DMaterialSlot(
-            int slotId,
-            string displayName,
-            string shaderOutputName,
-            SlotType slotType,
-            ShaderStageCapability shaderStageCapability = ShaderStageCapability.All,
-            bool hidden = false)
-            : base(slotId, displayName, shaderOutputName, slotType, shaderStageCapability, hidden)
-        {}
-
-        public override SlotValueType valueType { get { return SlotValueType.Texture3D; } }
-        public override ConcreteSlotValueType concreteValueType { get { return ConcreteSlotValueType.Texture3D; } }
-
-        public override void AddDefaultProperty(PropertyCollector properties, GenerationMode generationMode)
-        {}
-
-        public override void CopyValuesFrom(MaterialSlot foundSlot)
-        {}
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f916b70fcf94dae2e9f864f0473e24f02ca69d0e18bee1db501654959d3fbe5
+size 1041

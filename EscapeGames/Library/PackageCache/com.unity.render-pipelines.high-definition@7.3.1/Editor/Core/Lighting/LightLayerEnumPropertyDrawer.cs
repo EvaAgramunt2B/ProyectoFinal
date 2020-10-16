@@ -1,20 +1,3 @@
-using UnityEngine;
-using UnityEngine.Rendering.HighDefinition;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    [CustomPropertyDrawer(typeof(LightLayerEnum))]
-    class LightLayerEnumPropertyDrawer : PropertyDrawer
-    {
-        /// <summary>
-        /// Draws a light layer enum.
-        /// </summary>
-        /// <param name="position">The rect to draw.</param>
-        /// <param name="property">The property to draw.</param>
-        /// <param name="label">The label to draw.</param>
-        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
-            => HDEditorUtils.DrawLightLayerMask_Internal(position, label, property);
-
-        //default height is good (= single line height)
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e4d70d7a18fa87b3d919a466788035fbbcfae5e7114ced35e4b5aaaec5f3c27
+size 761

@@ -1,16 +1,3 @@
-using UnityEngine.Rendering;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-#pragma warning disable 618 // Obsolete warning
-    [CanEditMultipleObjects]
-    // Disable HDRP custom editor to display full shadow settings (only for dev purpose, reset for pr)
-    [CustomEditor(typeof(AdditionalShadowData))]
-    class AdditionalShadowDataEditor : Editor
-    {
-        public override void OnInspectorGUI()
-        {
-        }
-    }
-#pragma warning restore 618 // Obsolete warning
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:33b239494cd4a511ff50b92dbc29def2ba6cee716bb9e641972669287eea67d2
+size 498

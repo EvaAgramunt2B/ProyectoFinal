@@ -1,27 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering.HighDefinition
-{
-    /// <summary>
-    /// Global Decal Settings.
-    /// </summary>
-    [Serializable]
-    public struct GlobalDecalSettings
-    {
-        internal static GlobalDecalSettings NewDefault() => new GlobalDecalSettings()
-        {
-            drawDistance = 1000,
-            atlasWidth = 4096,
-            atlasHeight = 4096
-        };
-
-        /// <summary>Maximum draw distance.</summary>
-        public int drawDistance;
-        /// <summary>Decal atlas width in pixels.</summary>
-        public int atlasWidth;
-        /// <summary>Decal atlas height in pixels.</summary>
-        public int atlasHeight;
-        /// <summary>Enables per channel mask.</summary>
-        public bool perChannelMask;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96e1a8e942a5a6cbc07fbc85fa171b8aec8aad6d6661bbd6759cbcf97071c241
+size 797

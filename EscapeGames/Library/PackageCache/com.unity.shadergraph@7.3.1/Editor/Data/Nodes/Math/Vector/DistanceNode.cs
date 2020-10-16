@@ -1,32 +1,3 @@
-using System.Reflection;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Vector", "Distance")]
-    class DistanceNode : CodeFunctionNode
-    {
-        public DistanceNode()
-        {
-            name = "Distance";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Distance", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Distance(
-            [Slot(0, Binding.None)] DynamicDimensionVector A,
-            [Slot(1, Binding.None)] DynamicDimensionVector B,
-            [Slot(2, Binding.None)] out Vector1 Out)
-        {
-            return
-                @"
-{
-    Out = distance(A, B);
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:517ebdda78cb2b23fe2c70657dd28f56c8d3501d338ed0baf25766dffbbd3b19
+size 767

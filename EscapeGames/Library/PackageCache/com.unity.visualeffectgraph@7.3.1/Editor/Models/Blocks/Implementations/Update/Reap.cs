@@ -1,31 +1,3 @@
-using System;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Block
-{
-    //[VFXInfo(category = "Implicit")] //There's no way the user can meaningfully interact with them.
-    class Reap : VFXBlock
-    {
-        public override string name { get { return "Reap"; } }
-        public override VFXContextType compatibleContexts { get { return VFXContextType.Update; } }
-        public override VFXDataType compatibleData { get { return VFXDataType.Particle; } }
-        public override IEnumerable<VFXAttributeInfo> attributes
-        {
-            get
-            {
-                yield return new VFXAttributeInfo(VFXAttribute.Age, VFXAttributeMode.Read);
-                yield return new VFXAttributeInfo(VFXAttribute.Lifetime, VFXAttributeMode.Read);
-                yield return new VFXAttributeInfo(VFXAttribute.Alive, VFXAttributeMode.ReadWrite);
-            }
-        }
-
-        public override string source
-        {
-            get
-            {
-                return "if(age > lifetime) { alive = false; }";
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ca908969d9a8471f54d471bcf0207f740d93b8068b8b0917489695bfc54a9f7
+size 1114

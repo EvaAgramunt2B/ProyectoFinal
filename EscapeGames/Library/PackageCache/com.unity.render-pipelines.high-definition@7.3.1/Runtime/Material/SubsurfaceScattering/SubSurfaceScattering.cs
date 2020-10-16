@@ -1,24 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering.HighDefinition
-{
-    /// <summary>
-    /// Subsurface scattering volume component.
-    /// This component setups subsurface scattering for ray-tracing.
-    /// </summary>
-    [Serializable, VolumeComponentMenu("Ray Tracing/SubSurface Scattering (Preview)")]
-    public sealed class SubSurfaceScattering : VolumeComponent
-    {
-        /// <summary>
-        /// Enable ray traced sub-surface scattering.
-        /// </summary>
-        [Tooltip("Enable ray traced sub-surface scattering.")]
-        public BoolParameter rayTracing = new BoolParameter(false);
-
-        /// <summary>
-        /// Number of samples for sub-surface scattering.
-        /// </summary>
-        [Tooltip("Number of samples for sub-surface scattering.")]
-        public ClampedIntParameter sampleCount = new ClampedIntParameter(1, 1, 32);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:633f364252c34da9777e5f2d444890bbd7f7fb8535f3f86db9a72bdd1657198b
+size 891

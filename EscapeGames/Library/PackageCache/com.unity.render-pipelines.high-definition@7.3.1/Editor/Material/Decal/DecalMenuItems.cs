@@ -1,23 +1,3 @@
-using UnityEngine;
-using UnityEngine.Rendering.HighDefinition;
-using UnityEngine.Rendering;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    class DecalMenuItems
-    {
-        [MenuItem("GameObject/Rendering/Decal Projector", priority = CoreUtils.gameObjectMenuPriority)]
-        static void CreateDecal(MenuCommand menuCommand)
-        {
-            var parent = menuCommand.context as GameObject;
-            var go = CoreEditorUtils.CreateGameObject(parent, "Decal Projector");
-            var decal = go.AddComponent<DecalProjector>();
-            decal.transform.RotateAround(decal.transform.position, decal.transform.right, 90);
-            // Ensure it gets re-parented if this was a context click (otherwise does nothing)
-            GameObjectUtility.SetParentAndAlign(go, menuCommand.context as GameObject);
-            // Register the creation in the undo system
-            Undo.RegisterCreatedObjectUndo(go, "Create " + go.name);
-            Selection.activeObject = go;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae1066b8fc6587c3b6b17c47199594b8b4fbbf158cbc04248d9225eedec094bd
+size 1030

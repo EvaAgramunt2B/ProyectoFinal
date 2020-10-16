@@ -1,30 +1,3 @@
-using UnityEngine.VFX;
-
-namespace UnityEngine.VFX.Utility
-{
-    [AddComponentMenu("VFX/Property Binders/Position Binder")]
-    [VFXBinder("Transform/Position")]
-    class VFXPositionBinder : VFXBinderBase
-    {
-        public string Property { get { return (string)m_Property; } set { m_Property = value; } }
-
-        [VFXPropertyBinding("UnityEditor.VFX.Position", "UnityEngine.Vector3"), SerializeField, UnityEngine.Serialization.FormerlySerializedAs("m_Parameter")]
-        protected ExposedProperty m_Property = "Position";
-        public Transform Target = null;
-
-        public override bool IsValid(VisualEffect component)
-        {
-            return Target != null && component.HasVector3(m_Property);
-        }
-
-        public override void UpdateBinding(VisualEffect component)
-        {
-            component.SetVector3(m_Property, Target.transform.position);
-        }
-
-        public override string ToString()
-        {
-            return string.Format("Position : '{0}' -> {1}", m_Property, Target == null ? "(null)" : Target.name);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4c93fbd2a02dbad14a3e51b6552cea0283e2e43ff1c2a5e262e53a1636a3eaf
+size 1097

@@ -1,12 +1,3 @@
-using System.Collections.Generic;
-using UnityEngine.Rendering;
-
-namespace UnityEditor.ShaderGraph
-{
-    interface ISubShader
-    {
-        string GetSubshader(IMasterNode masterNode, GenerationMode mode, List<string> sourceAssetDependencyPaths = null);
-        bool IsPipelineCompatible(RenderPipelineAsset renderPipelineAsset);
-        int GetPreviewPassIndex();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2a27a8c6346e147076af8b38ca5bb036bd5f13481985fae3a333b84b38f436c
+size 384

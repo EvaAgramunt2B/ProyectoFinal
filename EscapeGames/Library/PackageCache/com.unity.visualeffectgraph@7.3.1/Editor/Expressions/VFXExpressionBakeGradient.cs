@@ -1,22 +1,3 @@
-using System;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using UnityEngine;
-using UnityEngine.VFX;
-
-namespace UnityEditor.VFX
-{
-    class VFXExpressionBakeGradient : VFXExpression
-    {
-        public VFXExpressionBakeGradient() : this(VFXValue<Gradient>.Default)
-        {
-        }
-
-        public VFXExpressionBakeGradient(VFXExpression curve)
-            : base(Flags.InvalidOnGPU, new VFXExpression[1] { curve })
-        {
-        }
-
-        sealed public override VFXExpressionOperation operation { get { return VFXExpressionOperation.BakeGradient; } }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:37f4677444d0402de171fc7bd7af129a78e29b47ef82b4d41024e8940282e95d
+size 604

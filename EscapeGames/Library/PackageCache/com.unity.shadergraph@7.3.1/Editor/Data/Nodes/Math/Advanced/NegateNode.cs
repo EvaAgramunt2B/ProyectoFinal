@@ -1,31 +1,3 @@
-using System.Reflection;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Advanced", "Negate")]
-    class NegateNode : CodeFunctionNode
-    {
-        public NegateNode()
-        {
-            name = "Negate";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Negate", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Negate(
-            [Slot(0, Binding.None)] DynamicDimensionVector In,
-            [Slot(1, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = -1 * In;
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:877addcc8adfbf7b00423e470c0f674e3337855cc93c379b7d1fa4856337fbc2
+size 703

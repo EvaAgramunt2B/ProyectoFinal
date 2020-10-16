@@ -1,28 +1,3 @@
-using UnityEngine.Rendering;
-using Utilities;
-
-namespace UnityEditor.Rendering.Utilities
-{
-    /// <summary>
-    /// Editor MaterialQuality utility class.
-    /// </summary>
-    public static class EditorMaterialQualityUtilities
-    {
-        /// <summary>
-        /// Get the material quality levels enabled in a keyword set.
-        /// </summary>
-        /// <param name="keywordSet">Input keywords.</param>
-        /// <returns>All available MaterialQuality levels in the keyword set.</returns>
-        public static MaterialQuality GetMaterialQuality(this ShaderKeywordSet keywordSet)
-        {
-            var result = (MaterialQuality)0;
-            for (var i = 0; i < MaterialQualityUtilities.Keywords.Length; ++i)
-            {
-                if (keywordSet.IsEnabled(MaterialQualityUtilities.Keywords[i]))
-                    result |= (MaterialQuality) (1 << i);
-            }
-
-            return result;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce60bba44aab096c02fa690925a47e74b0ca527565590d8dbd10e634ea09e90
+size 964

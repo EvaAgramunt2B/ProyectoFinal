@@ -1,12 +1,3 @@
-using UnityEngine;
-using System;
-
-namespace UnityEditor.Rendering.TestFramework
-{
-    static class YAMLUtilities
-    {
-        public static string ToYAML(this Quaternion v) => FormattableString.Invariant($"{{x: {v.x}, y: {v.y}, z: {v.z}, w: {v.w}}}");
-        public static string ToYAML(this Vector3 v) => FormattableString.Invariant($"{{x: {v.x}, y: {v.y}, z: {v.z}}}");
-        public static string ToYAML(this Color v) => FormattableString.Invariant($"{{r: {v.r}, g: {v.g}, b: {v.b}, a: {v.a}}}");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:18e5314f3d6778543837bfd39e424a24770054e03f941f13b8aa27664f2f4c86
+size 523

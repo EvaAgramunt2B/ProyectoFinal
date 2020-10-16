@@ -1,29 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Geometry")]
-    class SphereVolume : VFXOperator
-    {
-        public class InputProperties
-        {
-            [Tooltip("Sets the sphere used for the volume calculation.")]
-            public Sphere sphere = new Sphere();
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the volume of the sphere.")]
-            public float volume;
-        }
-
-        override public string name { get { return "Volume (Sphere)"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new VFXExpression[] { VFXOperatorUtility.SphereVolume(inputExpression[1]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:14d0469f2b374d97931896ef4eba078963e47afb6afc84bfd60659850d3fdc96
+size 834

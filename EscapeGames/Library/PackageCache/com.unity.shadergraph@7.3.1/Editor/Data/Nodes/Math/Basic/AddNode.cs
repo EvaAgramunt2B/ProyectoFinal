@@ -1,31 +1,3 @@
-using System.Reflection;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Basic", "Add")]
-    class AddNode : CodeFunctionNode
-    {
-        public AddNode()
-        {
-            name = "Add";
-        }
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Add", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Add(
-            [Slot(0, Binding.None)] DynamicDimensionVector A,
-            [Slot(1, Binding.None)] DynamicDimensionVector B,
-            [Slot(2, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = A + B;
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb03f63c4d303c9779a370ce920bff04dd48de2c033f403acff885e5e93cb659
+size 740

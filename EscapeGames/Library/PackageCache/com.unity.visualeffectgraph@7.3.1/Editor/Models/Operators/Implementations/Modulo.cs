@@ -1,24 +1,3 @@
-using System;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class Modulo : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            [Tooltip("The numerator operand.")]
-            public float a = 1.0f;
-            [Tooltip("The denominator operand.")]
-            public float b = 1.0f;
-        }
-
-        protected override sealed string operatorName { get { return "Modulo"; } }
-
-        protected override VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { VFXOperatorUtility.Modulo(inputExpression[0], inputExpression[1]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52e48879d5aac706fd3febba0e2f1502181099b3ddb681f87e6e9b9d665e7ff4
+size 716

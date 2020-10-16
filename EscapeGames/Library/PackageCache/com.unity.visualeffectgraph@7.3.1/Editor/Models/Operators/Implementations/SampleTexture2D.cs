@@ -1,32 +1,3 @@
-using System;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Sampling")]
-    class SampleTexture2D : VFXOperator
-    {
-        override public string name { get { return "Sample Texture2D"; } }
-
-        public class InputProperties
-        {
-            [Tooltip("Sets the texture to sample from.")]
-            public Texture2D texture = null;
-            [Tooltip("Sets the texture coordinate used for the sampling.")]
-            public Vector2 UV = Vector2.zero;
-            [Min(0), Tooltip("Sets the mip level to sample from.")]
-            public float mipLevel = 0.0f;
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the sampled value from the texture at the specified UV coordinate.")]
-            public Vector4 s = Vector4.zero;
-        }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionSampleTexture2D(inputExpression[0], inputExpression[1], inputExpression[2]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f79c8ed19b212d33b58c99744c69b0face541a1b96d36dc770aa9237f61c0ce
+size 1109

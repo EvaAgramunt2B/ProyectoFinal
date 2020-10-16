@@ -1,33 +1,3 @@
-using System;
-using System.Text;
-
-namespace UnityEditor.ShaderGraph
-{
-    static class StringBuilderExtensions
-    {
-        public static void AppendIndentedLines(this StringBuilder sb, string lines, string indentation)
-        {
-            sb.EnsureCapacity(sb.Length + lines.Length);
-            var charIndex = 0;
-            while (charIndex < lines.Length)
-            {
-                var nextNewLineIndex = lines.IndexOf(Environment.NewLine, charIndex, StringComparison.Ordinal);
-                if (nextNewLineIndex == -1)
-                {
-                    nextNewLineIndex = lines.Length;
-                }
-
-                sb.Append(indentation);
-
-                for (var i = charIndex; i < nextNewLineIndex; i++)
-                {
-                    sb.Append(lines[i]);
-                }
-
-                sb.AppendLine();
-
-                charIndex = nextNewLineIndex + Environment.NewLine.Length;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d170b452a89c19d085b6bac3f1b7abc374c6c862ec9cdc6aaf6078d4cc2eff4
+size 984

@@ -1,28 +1,3 @@
-using UnityEngine;
-using UnityEngine.Rendering.HighDefinition;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    class RayTracingShaderPreprocessor : BaseShaderPreprocessor
-    {
-        public RayTracingShaderPreprocessor() {}
-
-        protected override bool DoShadersStripper(HDRenderPipelineAsset hdrpAsset, Shader shader, ShaderSnippetData snippet, ShaderCompilerData inputData)
-        {
-            // If ray tracing is disabled, strip all ray tracing shaders
-            if (hdrpAsset.currentPlatformRenderPipelineSettings.supportRayTracing == false)
-            {
-                // If transparent we don't need the depth only pass
-                if (snippet.passName == "IndirectDXR"
-                    || snippet.passName == "ForwardDXR"
-                    || snippet.passName == "VisibilityDXR"
-                    || snippet.passName == "PathTracingDXR"
-                    || snippet.passName == "GBufferDXR"
-                    || snippet.passName == "SubSurfaceDXR")
-                    return true;
-            }
-
-            return false;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9945c5dcce28d3e9743312c03ef560f81c554ca48bb80bc239162c7cbd6bf742
+size 1110

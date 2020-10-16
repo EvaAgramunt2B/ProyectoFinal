@@ -1,27 +1,3 @@
-namespace UnityEngine.Rendering
-{
-    class DebugUpdater : MonoBehaviour
-    {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
-        static void RuntimeInit()
-        {
-            if (!Debug.isDebugBuild || FindObjectOfType<DebugUpdater>() != null)
-                return;
-
-            var go = new GameObject { name = "[Debug Updater]" };
-            go.AddComponent<DebugUpdater>();
-            DontDestroyOnLoad(go);
-        }
-
-        void Update()
-        {
-            DebugManager.instance.UpdateActions();
-
-            if (DebugManager.instance.GetAction(DebugAction.EnableDebugMenu) != 0.0f)
-                DebugManager.instance.displayRuntimeUI = !DebugManager.instance.displayRuntimeUI;
-
-            if (DebugManager.instance.displayRuntimeUI && DebugManager.instance.GetAction(DebugAction.ResetAll) != 0.0f)
-                DebugManager.instance.Reset();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4d2ed5803b1a889bafa3fc9c9303b5a89e807a4417b16bf8d39cdc109ea8465
+size 950

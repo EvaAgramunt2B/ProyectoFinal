@@ -1,28 +1,3 @@
-using System;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Bitwise")]
-    class BitwiseComplement : VFXOperator
-    {
-        override public string name { get { return "Complement"; } }
-
-        public class InputProperties
-        {
-            [Tooltip("Sets the operand")]
-            public uint x = 0;
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the result of the logical NOT operation for the specified operand. For example, 7 (0111 in binary) will return 8 (1000 in binary).")]
-            public uint o = 0;
-        }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionBitwiseComplement(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6583e951c798d46d9fccdf4da113e2d1cc2973e00810e90f72776862c0804313
+size 850

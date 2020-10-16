@@ -1,32 +1,3 @@
-namespace UnityEngine.Rendering
-{
-    // Use this class to get a static instance of a component
-    // Mainly used to have a default instance
-
-    /// <summary>
-    /// Singleton of a Component class.
-    /// </summary>
-    /// <typeparam name="TType">Component type.</typeparam>
-    public static class ComponentSingleton<TType>
-        where TType : Component
-    {
-        static TType s_Instance = null;
-        /// <summary>
-        /// Instance of the required component type.
-        /// </summary>
-        public static TType instance
-        {
-            get
-            {
-                if (s_Instance == null)
-                {
-                    GameObject go = new GameObject("Default " + typeof(TType)) { hideFlags = HideFlags.HideAndDontSave };
-                    go.SetActive(false);
-                    s_Instance = go.AddComponent<TType>();
-                }
-
-                return s_Instance;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fd567ffc9bff60817c7509d97254d6759cdb861316d3e3c25f7d79707e33cff
+size 981

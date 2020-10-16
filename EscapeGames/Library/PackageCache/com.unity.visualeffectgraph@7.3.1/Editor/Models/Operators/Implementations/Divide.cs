@@ -1,17 +1,3 @@
-using System;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class Divide : VFXOperatorNumericCascadedUnified
-    {
-        protected override sealed string operatorName { get { return "Divide"; } }
-
-        protected override sealed double defaultValueDouble { get { return 1.0; } }
-
-        protected override sealed VFXExpression ComposeExpression(VFXExpression a, VFXExpression b)
-        {
-            return a / b;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cf9b0248c1ffe2f82d54eb033f3c7417de02ee8500b14958146e59b2fb6b977
+size 495

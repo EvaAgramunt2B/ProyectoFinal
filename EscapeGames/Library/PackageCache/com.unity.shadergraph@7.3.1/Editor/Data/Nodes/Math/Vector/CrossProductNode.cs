@@ -1,34 +1,3 @@
-using System.Reflection;
-using UnityEngine;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Vector", "Cross Product")]
-    class CrossProductNode : CodeFunctionNode
-    {
-        public CrossProductNode()
-        {
-            name = "Cross Product";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_CrossProduct", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_CrossProduct(
-            [Slot(0, Binding.None, 0, 0, 0, 0)] Vector3 A,
-            [Slot(1, Binding.None, 0, 1, 0, 0)] Vector3 B,
-            [Slot(2, Binding.None)] out Vector3 Out)
-        {
-            Out = Vector3.zero;
-            return
-                @"
-{
-    Out = cross(A, B);
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f85a090c94132423c91c95a150bb99245f5268dbf3858164429d3d319f7444f
+size 837

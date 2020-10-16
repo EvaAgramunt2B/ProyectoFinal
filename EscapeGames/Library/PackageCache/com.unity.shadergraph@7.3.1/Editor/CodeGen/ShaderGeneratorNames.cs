@@ -1,21 +1,3 @@
-using System;
-using UnityEditor.ShaderGraph.Internal;
-
-namespace UnityEditor.ShaderGraph
-{
-    static class ShaderGeneratorNames
-    {
-        private static string[] UV = {"uv0", "uv1", "uv2", "uv3"};
-        public static int UVCount = 4;
-
-        public const string ScreenPosition = "ScreenPosition";
-        public const string VertexColor = "VertexColor";
-        public const string FaceSign = "FaceSign";
-        public const string TimeParameters = "TimeParameters";
-
-        public static string GetUVName(this UVChannel channel)
-        {
-            return UV[(int)channel];
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f8cf497dba79e62e497808a4be86e3019822226302bf8dcfdda7f7fb540532f
+size 626

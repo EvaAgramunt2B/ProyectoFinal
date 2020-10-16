@@ -1,11 +1,3 @@
-namespace UnityEngine.Rendering.HighDefinition
-{
-    [GenerateHLSL(needAccessors = false, omitStructDeclaration = true)]
-    struct ShaderVariablesDecal
-    {
-        public Vector2  _DecalAtlasResolution;
-        public uint    _EnableDecals;
-        public uint    _DecalCount;
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:639a9e7a92efa68573022ba1082bf7a691cdcb1137b8d2f4ce4233da0377f03c
+size 300

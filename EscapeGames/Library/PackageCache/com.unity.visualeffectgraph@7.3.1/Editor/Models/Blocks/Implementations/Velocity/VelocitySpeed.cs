@@ -1,24 +1,3 @@
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Block
-{
-    [VFXInfo(category = "Velocity", experimental = true)]
-    class VelocitySpeed : VelocityBase
-    {
-        public override string name { get { return string.Format(base.name, "Change Speed"); } }
-        protected override bool altersDirection { get { return false; } }
-
-        public override string source
-        {
-            get
-            {
-                string outSource = speedComputeString + "\n";
-                outSource += string.Format(velocityComposeFormatString, "direction * speed");
-                return outSource;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e9d14b1ac351969aa4cf2acc3039a82985a8c29f04a9976d31db89ba30e277f
+size 720

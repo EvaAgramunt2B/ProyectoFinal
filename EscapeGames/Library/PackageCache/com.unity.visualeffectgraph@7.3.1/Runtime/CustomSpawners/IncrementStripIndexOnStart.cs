@@ -1,33 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.VFX;
-
-class IncrementStripIndexOnStart : VFXSpawnerCallbacks
-{
-    public class InputProperties
-    {
-        [Tooltip("Maximum Strip Count (Used to cycle indices)")]
-        public uint StripMaxCount = 8;
-    }
-
-    static private readonly int stripMaxCountID = Shader.PropertyToID("StripMaxCount");
-    static private readonly int stripIndexID = Shader.PropertyToID("stripIndex");
-
-    uint m_Index = 0;
-
-    public override void OnPlay(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent)
-    {
-        m_Index = (m_Index + 1) % Math.Max(1, vfxValues.GetUInt(stripMaxCountID));
-        state.vfxEventAttribute.SetUint(stripIndexID, m_Index);
-    }
-
-    public override void OnStop(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent)
-    {
-        m_Index = 0;
-    }
-
-    public override void OnUpdate(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent)
-    {  
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b83049af3da7cf4c283fd29eebfe2e51c0f9e6dea77afbe093c17f8e9fb596b
+size 1043

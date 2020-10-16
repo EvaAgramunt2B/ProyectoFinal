@@ -1,17 +1,3 @@
-using System;
-using UnityEditor.VFX;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class Subtract : VFXOperatorNumericCascadedUnified
-    {
-        protected override sealed string operatorName { get { return "Subtract"; } }
-        protected override sealed double defaultValueDouble { get { return 0.0; } }
-
-        protected override sealed VFXExpression ComposeExpression(VFXExpression a, VFXExpression b)
-        {
-            return a - b;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95f45d71ac8e5440c0ea706cfedcd758493467f71d00cd0ec8bccb1e64e1eb9e
+size 521

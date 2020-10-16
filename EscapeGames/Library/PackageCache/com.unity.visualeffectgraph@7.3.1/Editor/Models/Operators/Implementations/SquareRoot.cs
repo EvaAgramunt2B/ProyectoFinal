@@ -1,23 +1,3 @@
-using System;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class SquareRoot : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0.0f;
-        }
-
-        protected override sealed string operatorName { get { return "Square Root"; } }
-
-        protected override sealed ValidTypeRule typeFilter { get { return ValidTypeRule.allowEverythingExceptIntegerAndDirection; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { VFXOperatorUtility.Sqrt(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:164570675b2f429f6939d045192b4034ece091392e16c0290f8aafda5750e92e
+size 711

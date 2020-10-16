@@ -1,29 +1,3 @@
-using System;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Vector")]
-    class Normalize : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public Vector3 x = Vector3.one;
-        }
-
-        protected override sealed string operatorName { get { return "Normalize"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { VFXOperatorUtility.Normalize(inputExpression[0]) };
-        }
-
-        protected override sealed ValidTypeRule typeFilter
-        {
-            get
-            {
-                return ValidTypeRule.allowVectorType;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6d8e7b88930e76ffa8a1ca36ddd1258bc40ff5a33b6626447d59d975731c3bd
+size 767

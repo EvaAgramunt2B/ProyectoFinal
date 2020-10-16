@@ -1,21 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
-using UnityEngine.VFX;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class Multiply : VFXOperatorNumericCascadedUnified
-    {
-        protected override sealed string operatorName { get { return "Multiply"; } }
-
-        protected override sealed double defaultValueDouble { get { return 1.0; } }
-
-        protected override sealed VFXExpression ComposeExpression(VFXExpression a, VFXExpression b)
-        {
-            return a * b;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c088a4d6e196f1cadbf0ec9c90f09a68d6116e1b249bb700264c4f10128bc4e
+size 598

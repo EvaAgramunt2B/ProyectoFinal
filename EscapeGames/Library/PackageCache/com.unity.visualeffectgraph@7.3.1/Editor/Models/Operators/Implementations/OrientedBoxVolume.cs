@@ -1,29 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Geometry")]
-    class OrientedBoxVolume : VFXOperator
-    {
-        public class InputProperties
-        {
-            [Tooltip("Sets the box used for the volume calculation.")]
-            public OrientedBox box = new OrientedBox();
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the volume of the box.")]
-            public float volume;
-        }
-
-        override public string name { get { return "Volume (Oriented Box)"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new VFXExpression[] { VFXOperatorUtility.BoxVolume(new VFXExpressionExtractScaleFromMatrix(inputExpression[0])) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e4e01d87281ce6f098e137b9c1f00ed1bd192718faafcc3ed5fe01ca93d97e1
+size 884

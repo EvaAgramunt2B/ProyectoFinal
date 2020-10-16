@@ -1,15 +1,3 @@
-using UnityEditor.Rendering;
-using UnityEngine;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    partial class FrameSettingsUI
-    {
-        static readonly GUIContent frameSettingsHeaderContent = EditorGUIUtility.TrTextContent("Frame Settings Overrides", "Default FrameSettings are defined in your Unity Project's HDRP Asset.");
-
-        const string renderingSettingsHeaderContent = "Rendering";
-        const string lightSettingsHeaderContent = "Lighting";
-        const string asyncComputeSettingsHeaderContent = "Asynchronous Compute Shaders";
-        const string lightLoopSettingsHeaderContent = "Light Loop Debug";
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:da77e8236f0e8726bda18e0a7ea8b57f96e9f7aa91457b1bf4453706de54422e
+size 651

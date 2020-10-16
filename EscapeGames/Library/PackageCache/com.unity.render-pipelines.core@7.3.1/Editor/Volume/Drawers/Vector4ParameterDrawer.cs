@@ -1,20 +1,3 @@
-using UnityEngine;
-using UnityEngine.Rendering;
-
-namespace UnityEditor.Rendering
-{
-    [VolumeParameterDrawer(typeof(Vector4Parameter))]
-    sealed class Vector4ParametrDrawer : VolumeParameterDrawer
-    {
-        public override bool OnGUI(SerializedDataParameter parameter, GUIContent title)
-        {
-            var value = parameter.value;
-
-            if (value.propertyType != SerializedPropertyType.Vector4)
-                return false;
-
-            value.vector4Value = EditorGUILayout.Vector4Field(title, value.vector4Value);
-            return true;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6519d93c0091201b7b9192f225691eac079dd20440185cd49e44d0db6b823edb
+size 600

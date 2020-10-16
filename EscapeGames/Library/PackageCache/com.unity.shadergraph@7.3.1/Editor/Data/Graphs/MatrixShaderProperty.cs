@@ -1,19 +1,3 @@
-using System;
-using UnityEditor.ShaderGraph.Internal;
-using UnityEngine;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Serializable]
-    abstract class MatrixShaderProperty : AbstractShaderProperty<Matrix4x4>
-    {
-        internal override bool isBatchable => true;
-        internal override bool isExposable => false;
-        internal override bool isRenamable => true;
-
-        internal override string GetPropertyDeclarationString(string delimiter = ";")
-        {
-            return $"{concretePrecision.ToShaderString()}4x4 {referenceName}{delimiter}";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c264be17c36a4310330c3730c29e879523ba4f11fc66e412bc711a3f8ad2742c
+size 592

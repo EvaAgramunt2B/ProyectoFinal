@@ -1,16 +1,3 @@
-using UnityEngine.Rendering.HighDefinition;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    static partial class HDProbeUI
-    {
-        public enum Expandable
-        {
-            Influence = 1 << 0,
-            Capture = 1 << 1,
-            Projection = 1 << 2,
-            Custom = 1 << 3,
-        }
-        internal readonly static ExpandedState<Expandable, HDProbe> k_ExpandedState = new ExpandedState<Expandable, HDProbe>(Expandable.Projection | Expandable.Capture | Expandable.Influence, "HDRP");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f482bae102efb4e076c7ef1a713836828dcae60ef6e553fa3e974362fab3e5df
+size 535

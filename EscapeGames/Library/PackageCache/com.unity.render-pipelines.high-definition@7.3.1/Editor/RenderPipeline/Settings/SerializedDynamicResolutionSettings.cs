@@ -1,31 +1,3 @@
-using UnityEditor.Rendering;
-using UnityEngine.Rendering;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    class SerializedDynamicResolutionSettings
-    {
-        public SerializedProperty root;
-
-        public SerializedProperty enabled;
-        public SerializedProperty maxPercentage;
-        public SerializedProperty minPercentage;
-        public SerializedProperty dynamicResType;
-        public SerializedProperty softwareUpsamplingFilter;
-        public SerializedProperty forcePercentage;
-        public SerializedProperty forcedPercentage;
-
-        public SerializedDynamicResolutionSettings(SerializedProperty root)
-        {
-            this.root = root;
-
-            enabled                  = root.Find((GlobalDynamicResolutionSettings s) => s.enabled);
-            maxPercentage            = root.Find((GlobalDynamicResolutionSettings s) => s.maxPercentage);
-            minPercentage            = root.Find((GlobalDynamicResolutionSettings s) => s.minPercentage);
-            dynamicResType           = root.Find((GlobalDynamicResolutionSettings s) => s.dynResType);
-            softwareUpsamplingFilter = root.Find((GlobalDynamicResolutionSettings s) => s.upsampleFilter);
-            forcePercentage          = root.Find((GlobalDynamicResolutionSettings s) => s.forceResolution);
-            forcedPercentage         = root.Find((GlobalDynamicResolutionSettings s) => s.forcedPercentage);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:65cf97870628faaa9334f1944d5555b035a57b639109a3f541dfe8bd6212e1d8
+size 1461

@@ -1,27 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.VFX;
-
-namespace UnityEditor.VFX
-{
-    //Helper to isolate all class which are skipping first level of hierarchy (sealed function are important at this stage)
-    class VFXSlotEncapsulated : VFXSlot
-    {
-        protected override sealed VFXExpression ExpressionFromChildren(VFXExpression[] expr)
-        {
-            if (expr.Length != 1)
-                throw new InvalidOperationException("Incorrect VFXSlotPImpl");
-            return ApplyPatchExpression(expr[0]);
-        }
-
-        protected override sealed VFXExpression[] ExpressionToChildren(VFXExpression expr)
-        {
-            return new VFXExpression[1] { expr };
-        }
-
-        virtual protected VFXExpression ApplyPatchExpression(VFXExpression expression)
-        {
-            return expression;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7bdf89a07b3d46dc42240ea4c7e8ca84cc58d0b18ecbeaaf8b22315a69f6df6
+size 867

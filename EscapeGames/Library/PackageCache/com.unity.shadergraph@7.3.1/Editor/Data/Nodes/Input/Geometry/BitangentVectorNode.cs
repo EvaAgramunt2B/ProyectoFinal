@@ -1,36 +1,3 @@
-using UnityEngine;
-using UnityEditor.Graphing;
-using UnityEditor.ShaderGraph.Internal;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Input", "Geometry", "Bitangent Vector")]
-    class BitangentVectorNode : GeometryNode, IMayRequireBitangent
-    {
-        public const int kOutputSlotId = 0;
-        public const string kOutputSlotName = "Out";
-
-        public BitangentVectorNode()
-        {
-            name = "Bitangent Vector";
-            UpdateNodeAfterDeserialization();
-        }
-
-
-        public sealed override void UpdateNodeAfterDeserialization()
-        {
-            AddSlot(new Vector3MaterialSlot(kOutputSlotId, kOutputSlotName, kOutputSlotName, SlotType.Output, new Vector4(0, 0, 1)));
-            RemoveSlotsNameNotMatching(new[] { kOutputSlotId });
-        }
-
-        public override string GetVariableNameForSlot(int slotId)
-        {
-            return string.Format("IN.{0}", space.ToVariableName(InterpolatorType.BiTangent));
-        }
-
-        public NeededCoordinateSpace RequiresBitangent(ShaderStageCapability stageCapability)
-        {
-            return space.ToNeededCoordinateSpace();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39f9ce459c1aef9065738b5168359f8e7021a340306b864ad6117f06d97eeded
+size 1172

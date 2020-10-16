@@ -1,25 +1,3 @@
-using UnityEditor.Rendering;
-using UnityEngine.Rendering.HighDefinition;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    class SerializedGlobalDecalSettings
-    {
-        public SerializedProperty root;
-
-        public SerializedProperty drawDistance;
-        public SerializedProperty atlasWidth;
-        public SerializedProperty atlasHeight;
-        public SerializedProperty perChannelMask;
-
-        public SerializedGlobalDecalSettings(SerializedProperty root)
-        {
-            this.root = root;
-
-            drawDistance = root.Find((GlobalDecalSettings s) => s.drawDistance);
-            atlasWidth = root.Find((GlobalDecalSettings s) => s.atlasWidth);
-            atlasHeight = root.Find((GlobalDecalSettings s) => s.atlasHeight);
-            perChannelMask = root.Find((GlobalDecalSettings s) => s.perChannelMask);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb7a65fb562fa79657ae578ce4ea94e018018adeeddbce56ea0632f74b1d8260
+size 878

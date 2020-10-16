@@ -1,19 +1,3 @@
-namespace UnityEngine.Rendering.HighDefinition
-{
-    [GenerateHLSL(needAccessors = false, omitStructDeclaration = true)]
-    struct ShaderVariablesAtmosphericScattering
-    {
-        // Common
-        public int     _FogEnabled;
-        public int     _PBRFogEnabled;
-        public float   _MaxFogDistance;
-        public float   _FogColorMode;
-        public Vector4 _FogColor; // color in rgb
-        public Vector4 _MipFogParameters;
-
-        // Volumetrics
-        public float  _VBufferLastSliceDist;       // The distance to the middle of the last slice
-        public int _EnableVolumetricFog;           // bool...
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:428f02b4ccd092084fdb9385646acf3f854f93f1f28596ab97a559b375891146
+size 651

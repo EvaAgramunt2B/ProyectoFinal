@@ -1,25 +1,3 @@
-#if VFX_HAS_TIMELINE
-using System;
-using UnityEngine;
-using UnityEngine.Playables;
-using UnityEngine.Timeline;
-using UnityEngine.VFX;
-
-[Serializable]
-class VisualEffectActivationClip : PlayableAsset, ITimelineClipAsset
-{
-    public VisualEffectActivationBehaviour activationBehavior = new VisualEffectActivationBehaviour();
-
-    public ClipCaps clipCaps
-    {
-        get { return ClipCaps.None; }
-    }
-
-    public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
-    {
-        var playable = ScriptPlayable<VisualEffectActivationBehaviour>.Create(graph, activationBehavior);
-        /*VisualEffectActivationBehaviour clone =*/ playable.GetBehaviour();
-        return playable;
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9cbc85d236e278b64d42072e67c2837563dbd053731f169b50b1d3800115d4c
+size 742

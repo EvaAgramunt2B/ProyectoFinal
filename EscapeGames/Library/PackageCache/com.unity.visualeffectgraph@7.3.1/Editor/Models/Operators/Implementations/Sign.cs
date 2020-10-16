@@ -1,28 +1,3 @@
-using System;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class Sign : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0.0f;
-        }
-
-        protected override sealed string operatorName { get { return "Sign"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionSign(inputExpression[0]) };
-        }
-
-        protected override sealed ValidTypeRule typeFilter
-        {
-            get
-            {
-                return ValidTypeRule.allowEverythingExceptUnsignedInteger;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b88ad529160f7ba26dc895e1fe56755bb05f680e7761b96da3b5d36e4f6f549
+size 746

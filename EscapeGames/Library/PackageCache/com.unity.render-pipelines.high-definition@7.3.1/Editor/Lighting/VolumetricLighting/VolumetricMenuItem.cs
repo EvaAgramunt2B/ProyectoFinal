@@ -1,21 +1,3 @@
-using UnityEngine;
-using UnityEngine.Rendering.HighDefinition;
-using UnityEngine.Rendering;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    class VolumetricMenuItems
-    {
-        [MenuItem("GameObject/Rendering/Density Volume", priority = CoreUtils.gameObjectMenuPriority)]
-        static void CreateDensityVolumeGameObject(MenuCommand menuCommand)
-        {
-            var parent = menuCommand.context as GameObject;
-            var densityVolume = CoreEditorUtils.CreateGameObject(parent, "Density Volume");
-            GameObjectUtility.SetParentAndAlign(densityVolume, menuCommand.context as GameObject);
-            Undo.RegisterCreatedObjectUndo(densityVolume, "Create " + densityVolume.name);
-            Selection.activeObject = densityVolume;
-
-            densityVolume.AddComponent<DensityVolume>();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1394830a8f2c4e2af61fb1848c711f30da2ad4a365cffb4b63addd8325cbafb
+size 857

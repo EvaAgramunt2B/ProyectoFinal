@@ -1,15 +1,3 @@
-using System.IO;
-using UnityEditor.ProjectWindowCallback;
-using UnityEditor.ShaderGraph;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    static class CreateHDUnlitShaderGraph
-    {
-        [MenuItem("Assets/Create/Shader/HDRP/Unlit Graph", false, 208)]
-        public static void CreateMaterialGraph()
-        {
-            GraphUtil.CreateNewGraph(new HDUnlitMasterNode());
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de14052fc10ee28d70bdde0951f39c7f208c10e9155e054632ecd02ce9fd66a0
+size 414

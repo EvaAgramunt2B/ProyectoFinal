@@ -1,29 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Geometry")]
-    class CylinderVolume : VFXOperator
-    {
-        public class InputProperties
-        {
-            [Tooltip("Sets the cylinder used for the volume calculation.")]
-            public Cylinder cylinder = new Cylinder();
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the volume of the cylinder.")]
-            public float volume;
-        }
-
-        override public string name { get { return "Volume (Cylinder)"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new VFXExpression[] { VFXOperatorUtility.CylinderVolume(inputExpression[1], inputExpression[2]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f94d0eb425e861b2309d108d1b04fcf7b0639ddbe8a1006ae55e317937df3e18
+size 870

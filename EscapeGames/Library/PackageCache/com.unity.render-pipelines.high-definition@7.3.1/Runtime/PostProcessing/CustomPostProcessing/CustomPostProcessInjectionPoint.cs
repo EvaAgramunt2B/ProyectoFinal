@@ -1,15 +1,3 @@
-namespace UnityEngine.Rendering.HighDefinition
-{
-    /// <summary>
-    /// Custom Post Processing injection points.
-    /// </summary>
-    public enum CustomPostProcessInjectionPoint
-    {
-        /// <summary>After Opaque and Sky.</summary>
-        AfterOpaqueAndSky,
-        /// <summary>Before Post Processing.</summary>
-        BeforePostProcess,
-        /// <summary>After Post Processing.</summary>
-        AfterPostProcess,
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6714292d74534fd031d58e51ea4fc25d96fb1d5779a6901ee4ac0e26165bc2b7
+size 452

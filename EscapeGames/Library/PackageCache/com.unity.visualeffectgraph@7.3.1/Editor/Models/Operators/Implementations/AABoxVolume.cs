@@ -1,29 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Geometry")]
-    class AABoxVolume : VFXOperator
-    {
-        public class InputProperties
-        {
-            [Tooltip("Sets the box used for the volume calculation.")]
-            public AABox box = new AABox();
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the volume of the box.")]
-            public float volume;
-        }
-
-        override public string name { get { return "Volume (Axis Aligned Box)"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new VFXExpression[] { VFXOperatorUtility.BoxVolume(inputExpression[1]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:98747f854d40ab52387b3c03451c9605222bccfb1de663efc0d64d4e28ac5730
+size 829

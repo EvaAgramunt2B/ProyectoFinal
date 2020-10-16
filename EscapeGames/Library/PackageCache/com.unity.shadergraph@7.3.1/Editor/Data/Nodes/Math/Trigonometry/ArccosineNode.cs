@@ -1,31 +1,3 @@
-using System.Reflection;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Trigonometry", "Arccosine")]
-    class ArccosineNode : CodeFunctionNode
-    {
-        public ArccosineNode()
-        {
-            name = "Arccosine";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Arccosine", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Arccosine(
-            [Slot(0, Binding.None, 1, 1, 1, 1)] DynamicDimensionVector In,
-            [Slot(1, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = acos(In);
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:37bd23f7a489a250b46c0867db57d62bbeaaa82eacb3f02ed7e6ec0fc567852b
+size 738

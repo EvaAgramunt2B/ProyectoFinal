@@ -1,31 +1,3 @@
-using System.Reflection;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Round", "Sign")]
-    class SignNode : CodeFunctionNode
-    {
-        public SignNode()
-        {
-            name = "Sign";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Sign", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Sign(
-            [Slot(0, Binding.None)] DynamicDimensionVector In,
-            [Slot(1, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = sign(In);
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b6e50706706c98f0a050f00f116183c1ab6f1767da64d08b329e1e02291656b
+size 689

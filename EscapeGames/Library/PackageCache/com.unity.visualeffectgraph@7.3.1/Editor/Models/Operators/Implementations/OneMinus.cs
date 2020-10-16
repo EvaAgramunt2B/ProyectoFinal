@@ -1,30 +1,3 @@
-using System;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class OneMinus : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0.0f;
-        }
-
-        protected override sealed string operatorName { get { return "One Minus (1-x)"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            var input = inputExpression[0];
-            var one = VFXOperatorUtility.OneExpression[input.valueType];
-            return new[] { one - input };
-        }
-
-        protected sealed override ValidTypeRule typeFilter
-        {
-            get
-            {
-                return ValidTypeRule.allowEverythingExceptInteger;
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0287f3d33d4d58ed2a61e3a6420f404b31e03ebaeff6eab064f2de9c873db621
+size 842

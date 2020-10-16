@@ -1,31 +1,3 @@
-using System.Reflection;
-using UnityEngine;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Vector", "Reflection")]
-    class ReflectionNode : CodeFunctionNode
-    {
-        public ReflectionNode()
-        {
-            name = "Reflection";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Reflection", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Reflection(
-            [Slot(0, Binding.None, 0, 0, 0, 0)] DynamicDimensionVector In,
-            [Slot(1, Binding.None, 0, 1, 0, 0)] DynamicDimensionVector Normal,
-            [Slot(2, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return @"
-{
-    Out = reflect(In, Normal);
-}";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b6bf0cca3cbb7b079f7e3f71233d98a4c7c6a645dcff9a43b9b5362b2bb75de
+size 830

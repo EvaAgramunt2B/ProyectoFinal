@@ -1,18 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.VFX;
-
-namespace UnityEditor.VFX
-{
-    [VFXInfo(category = "Spawn")]
-    class VFXSpawnerConstantRate : VFXAbstractSpawner
-    {
-        public override string name { get { return "Constant Spawn Rate"; } }
-        public override VFXTaskType spawnerType { get { return VFXTaskType.ConstantRateSpawner; } }
-        public class InputProperties
-        {
-            [Min(0), Tooltip("Sets the number of particles to be spawned per second.")]
-            public float Rate = 10;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:379c1950c7660b1445261d39644d5f45eb97710eb64868f9b4b15fce5fa21d4e
+size 564

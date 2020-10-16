@@ -1,23 +1,3 @@
-using UnityEngine.Rendering.HighDefinition;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    [CanEditMultipleObjects]
-    [VolumeComponentEditor(typeof(ScreenSpaceRefraction))]
-    class ScreenSpaceRefractionEditor : VolumeComponentEditor
-    {
-        protected SerializedDataParameter m_ScreenFadeDistance;
-
-        public override void OnEnable()
-        {
-            var o = new PropertyFetcher<ScreenSpaceRefraction>(serializedObject);
-
-            m_ScreenFadeDistance = Unpack(o.Find(x => x.screenFadeDistance));
-        }
-
-        public override void OnInspectorGUI()
-        {
-            PropertyField(m_ScreenFadeDistance, EditorGUIUtility.TrTextContent("Screen Weight Distance"));
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:902d2ccb5de89f0564bf970959fef41e0d541ec2e8661da283769e421f1eef5e
+size 741

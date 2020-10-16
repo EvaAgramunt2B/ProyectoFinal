@@ -1,20 +1,3 @@
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Trigonometry")]
-    class Cosine : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0.0f;
-        }
-
-        protected override sealed string operatorName { get { return "Cosine"; } }
-
-        protected override sealed ValidTypeRule typeFilter { get { return ValidTypeRule.allowEverythingExceptIntegerAndDirection; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionCos(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c3ef4f9eaa092d43c9e33bf6b7f926cdffc2e18df3654e36d99ca10f8615f17
+size 664

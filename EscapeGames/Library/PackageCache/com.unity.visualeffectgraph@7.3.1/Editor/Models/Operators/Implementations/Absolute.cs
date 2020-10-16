@@ -1,27 +1,3 @@
-using System;
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class Absolute : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0;
-        }
-
-        protected override sealed string operatorName { get { return "Absolute"; } }
-
-        protected override sealed ValidTypeRule typeFilter
-        {
-            get
-            {
-                return ValidTypeRule.allowEverythingExceptUnsignedInteger;
-            }
-        }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionAbs(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ecc5422e88334198ce1976809ca2e3d0990faf14b3faf6e1ad5957011e9432f
+size 748

@@ -1,17 +1,3 @@
-#if VFX_HAS_TIMELINE
-using UnityEngine;
-using UnityEngine.Playables;
-using UnityEngine.Timeline;
-using UnityEngine.VFX;
-
-[TrackColor(0.5990566f, 0.9038978f, 1f)]
-[TrackClipType(typeof(VisualEffectActivationClip))]
-[TrackBindingType(typeof(VisualEffect))]
-class VisualEffectActivationTrack : TrackAsset
-{
-    public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)
-    {
-        return ScriptPlayable<VisualEffectActivationMixerBehaviour>.Create(graph, inputCount);
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:e504929166d912659ee9dae1ead3d035c100e525ce134b920c6175834cedcb5e
+size 535

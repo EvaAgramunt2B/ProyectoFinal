@@ -1,31 +1,3 @@
-using System;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Logic")]
-    class LogicalOr : VFXOperator
-    {
-        override public string name { get { return "Or"; } }
-
-        public class InputProperties
-        {
-            static public bool FallbackValue = false;
-            [Tooltip("Sets the first operand.")]
-            public bool a = FallbackValue;
-            [Tooltip("Sets the second operand.")]
-            public bool b = FallbackValue;
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs true if at least one operand is true. Otherwise, outputs false.")]
-            public bool o = false;
-        }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionLogicalOr(inputExpression[0], inputExpression[1]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f01d1e85bc52373633d9182dcf0f59fdb5587e5b7a012892be4a3c2c65801d3
+size 950

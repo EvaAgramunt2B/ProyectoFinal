@@ -1,22 +1,3 @@
-using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("Unity.RenderPipelines.HighDefinition.Editor.Tests")]
-
-namespace UnityEngine.Rendering.HighDefinition
-{
-    //Need to live in Runtime as Attribute of documentation is on Runtime classes \o/
-    class Documentation : DocumentationInfo
-    {
-        //This must be used like
-        //[HelpURL(Documentation.baseURL + Documentation.version + Documentation.subURL + "some-page" + Documentation.endURL)]
-        //It cannot support String.Format nor string interpolation
-        internal const string baseURL = "https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@";
-        internal const string subURL = "/manual/";
-        internal const string endURL = ".html";
-
-        internal static string GetPageLink(string pageName)
-        {
-            return baseURL + version + subURL + pageName + endURL;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bb2638e186bda566a1b50df5be92b24b6284616cfbcc9c61b15dc2876076ec4
+size 935

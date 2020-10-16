@@ -1,33 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering.HighDefinition
-{
-    /// <summary>
-    /// A volume component that holds settings for the White Balance effect.
-    /// </summary>
-    [Serializable, VolumeComponentMenu("Post-processing/White Balance")]
-    public sealed class WhiteBalance : VolumeComponent, IPostProcessComponent
-    {
-        /// <summary>
-        /// Controls the color temperature HDRP uses for white balancing.
-        /// </summary>
-        [Tooltip("Controls the color temperature HDRP uses for white balancing.")]
-        public ClampedFloatParameter temperature = new ClampedFloatParameter(0f, -100, 100f);
-
-        /// <summary>
-        /// Controls the white balance color to compensate for a green or magenta tint.
-        /// </summary>
-        [Tooltip("Controls the white balance color to compensate for a green or magenta tint.")]
-        public ClampedFloatParameter tint = new ClampedFloatParameter(0f, -100, 100f);
-
-        /// <summary>
-        /// Tells if the effect needs to be rendered or not.
-        /// </summary>
-        /// <returns><c>true</c> if the effect should be rendered, <c>false</c> otherwise.</returns>
-        public bool IsActive()
-        {
-            return !Mathf.Approximately(temperature.value, 0f)
-                || !Mathf.Approximately(tint.value, 0f);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:257876dc18156cd390b8e916b7181d4a17c4cd59609f35b0d8e00ff9ef9f2e02
+size 1369

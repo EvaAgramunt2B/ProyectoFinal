@@ -1,33 +1,3 @@
-using System;
-using System.Linq;
-using System.Collections.ObjectModel;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Sampling")]
-    class SampleCurve : VFXOperator
-    {
-        override public string name { get { return "Sample Curve"; } }
-
-        public class InputProperties
-        {
-            [Tooltip("Sets the curve to sample from.")]
-            public AnimationCurve curve = VFXResources.defaultResources.animationCurve;
-            [Tooltip("Sets the time along the curve to take a sample from.")]
-            public float time = 0.0f;
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the sampled value from the curve at the specified time.")]
-            public float s = 0;
-        }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionSampleCurve(inputExpression[0], inputExpression[1]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d29e04f7b18355b37c347aad1ac8acadcbc5a977cb65afd709dedd07d5bc7f79
+size 1070

@@ -1,20 +1,3 @@
-using System;
-using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Internal;
-
-namespace UnityEditor.ShaderGraph
-{
-    class GenerationResults
-    {
-        public string shader { get; set; }
-        public List<PropertyCollector.TextureInfo> configuredTextures;
-        public PreviewMode previewMode { get; set; }
-        public Vector1ShaderProperty outputIdProperty { get; set; }
-        public ShaderSourceMap sourceMap { get; set; }
-
-        public GenerationResults()
-        {
-            configuredTextures = new List<PropertyCollector.TextureInfo>();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:627a2dc578fa733001a6134772a9c440ef8691f4ca9d234245598ede6cb8df0b
+size 609

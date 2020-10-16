@@ -1,29 +1,3 @@
-namespace UnityEngine.Rendering.HighDefinition
-{
-    abstract class IBLFilterBSDF
-    {
-        // Material that convolves the cubemap using the profile
-        protected Material m_convolveMaterial;
-        protected Matrix4x4[] m_faceWorldToViewMatrixMatrices = new Matrix4x4[6];
-
-        // Input data
-        protected RenderPipelineResources m_RenderPipelineResources;
-        protected MipGenerator m_MipGenerator;
-
-        abstract public bool IsInitialized();
-
-        abstract public void Initialize(CommandBuffer cmd);
-
-        abstract public void Cleanup();
-
-        // Filters MIP map levels (other than 0) with GGX using BRDF importance sampling.
-        abstract public void FilterCubemap(CommandBuffer cmd, Texture source, RenderTexture target);
-
-        public void FilterPlanarTexture(CommandBuffer cmd, RenderTexture source, RenderTexture target)
-        {
-            m_MipGenerator.RenderColorGaussianPyramid(cmd, new Vector2Int(source.width, source.height), source, target);
-        }
-
-        public abstract void FilterCubemapMIS(CommandBuffer cmd, Texture source, RenderTexture target, RenderTexture conditionalCdf, RenderTexture marginalRowCdf);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d7246d1108809c983ea11744a898efdf143dcc20d0ffd860f5f41b269e5617e
+size 1209

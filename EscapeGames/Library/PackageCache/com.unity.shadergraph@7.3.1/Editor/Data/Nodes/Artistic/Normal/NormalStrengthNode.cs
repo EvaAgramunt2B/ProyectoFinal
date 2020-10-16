@@ -1,34 +1,3 @@
-using System.Reflection;
-using UnityEngine;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Artistic", "Normal", "Normal Strength")]
-    internal class NormalStrengthNode : CodeFunctionNode
-    {
-        public NormalStrengthNode()
-        {
-            name = "Normal Strength";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_NormalStrength", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_NormalStrength(
-            [Slot(0, Binding.None, 0, 0, 1, 0)] Vector3 In,
-            [Slot(1, Binding.None, 1, 1, 1, 1)] Vector1 Strength,
-            [Slot(2, Binding.None)] out Vector3 Out)
-        {
-            Out = Vector3.up;
-            return
-                @"
-{
-    Out = $precision3(In.rg * Strength, lerp(1, In.b, saturate(Strength)));
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ada802a3d6d7a8560505b05bd36df214db3d4b09c4ce816981592911176b73b
+size 921

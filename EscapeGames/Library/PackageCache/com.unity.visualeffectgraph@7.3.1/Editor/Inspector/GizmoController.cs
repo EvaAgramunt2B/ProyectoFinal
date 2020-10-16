@@ -1,23 +1,3 @@
-using System;
-using System.Linq;
-using System.Collections;
-using System.Collections.ObjectModel;
-using UnityEngine;
-using UnityEngine.VFX;
-
-interface IGizmoable
-{
-    string name { get; }
-}
-interface IGizmoController
-{
-    void DrawGizmos(VisualEffect component);
-    Bounds GetGizmoBounds(VisualEffect component);
-
-    bool gizmoNeedsComponent { get; }
-    bool gizmoIndeterminate { get; }
-
-    ReadOnlyCollection<IGizmoable> gizmoables { get; }
-
-    IGizmoable currentGizmoable { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:76566efe2e3778536f80930c6901ad59a94270968d0e346b858a56dc0c700623
+size 519

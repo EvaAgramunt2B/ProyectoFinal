@@ -1,32 +1,3 @@
-#if VFX_HAS_PHYSICS
-using System.Collections;
-using System.Collections.Generic;
-
-namespace UnityEngine.VFX.Utility
-{
-    [RequireComponent(typeof(Rigidbody))]
-    [RequireComponent(typeof(Collider))]
-    class VFXRigidBodyCollisionEventBinder : VFXEventBinderBase
-    {
-        private ExposedProperty positionParameter = "position";
-        private ExposedProperty directionParameter = "velocity";
-
-
-        protected override void SetEventAttribute(object[] parameters)
-        {
-            ContactPoint contact = (ContactPoint)parameters[0];
-            eventAttribute.SetVector3(positionParameter, contact.point);
-            eventAttribute.SetVector3(directionParameter, contact.normal);
-        }
-
-        void OnCollisionEnter(Collision collision)
-        {
-            // Debug-draw all contact points and normals
-            foreach (ContactPoint contact in collision.contacts)
-            {
-                SendEventToVisualEffect(contact);
-            }
-        }
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:5edb530ebbd494ddfdb79648bce4ab8029a74df9aca159b3c675a5206cb74d1c
+size 1023

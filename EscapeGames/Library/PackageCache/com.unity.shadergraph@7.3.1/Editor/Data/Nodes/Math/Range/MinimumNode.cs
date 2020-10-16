@@ -1,31 +1,3 @@
-using System.Reflection;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Range", "Minimum")]
-    class MinimumNode : CodeFunctionNode
-    {
-        public MinimumNode()
-        {
-            name = "Minimum";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Minimum", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Minimum(
-            [Slot(0, Binding.None, 0, 0, 0, 0)] DynamicDimensionVector A,
-            [Slot(1, Binding.None, 1, 1, 1, 1)] DynamicDimensionVector B,
-            [Slot(2, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = min(A, B);
-};";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a54857f081b4a2be88f8865488cc9367367eb11f42c4d09d10978ca2e39786a0
+size 793

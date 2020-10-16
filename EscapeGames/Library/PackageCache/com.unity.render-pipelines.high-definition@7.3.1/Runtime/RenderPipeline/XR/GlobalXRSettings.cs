@@ -1,22 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering
-{
-    /// <summary>
-    /// Global XR Settings.
-    /// </summary>
-    [Serializable]
-    public struct GlobalXRSettings
-    {
-        internal static GlobalXRSettings NewDefault() => new GlobalXRSettings()
-        {
-            singlePass = true,
-            occlusionMesh = true
-        };
-
-        /// <summary>Use single pass.</summary>
-        public bool singlePass;
-        /// <summary>Use occlusion mesh.</summary>
-        public bool occlusionMesh;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c128fccca6ac020c740ea8e5774a9dc40e1afc1eed376a14df295071f93e167d
+size 536

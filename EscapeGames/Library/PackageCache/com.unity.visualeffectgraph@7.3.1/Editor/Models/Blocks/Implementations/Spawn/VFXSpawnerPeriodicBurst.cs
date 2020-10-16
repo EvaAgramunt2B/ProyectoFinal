@@ -1,32 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.VFX;
-
-namespace UnityEditor.VFX
-{
-    [Obsolete]
-    class VFXSpawnerPeriodicBurst : VFXAbstractSpawner
-    {
-        public override string name { get { return "PeriodicBurst (DEPRECATED)"; } }
-        public override VFXTaskType spawnerType { get { return VFXTaskType.PeriodicBurstSpawner; } }
-        public class InputProperties
-        {
-            public Vector2 nb = new Vector2(0, 10);
-            public Vector2 period = new Vector2(0, 1);
-        }
-
-        public override void Sanitize(int version)
-        {
-            var newBlock = ScriptableObject.CreateInstance<VFXSpawnerBurst>();
-            newBlock.SetSettingValue("repeat", VFXSpawnerBurst.RepeatMode.Periodic);
-            newBlock.SetSettingValue("delayMode", VFXSpawnerBurst.RandomMode.Random);
-            newBlock.SetSettingValue("spawnMode", VFXSpawnerBurst.RandomMode.Random);
-
-            VFXSlot.CopyLinksAndValue(newBlock.GetInputSlot(0), GetInputSlot(0), true);
-            VFXSlot.CopyLinksAndValue(newBlock.GetInputSlot(1), GetInputSlot(1), true);
-
-            ReplaceModel(newBlock, this);
-            base.Sanitize(version);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d84694a6bb583a3ce55f653cd16d2082cfa7e9af21f4adc849098e1c93ac0c30
+size 1215

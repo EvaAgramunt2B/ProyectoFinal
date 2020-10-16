@@ -1,20 +1,3 @@
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Trigonometry")]
-    class Atan : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0.0f;
-        }
-
-        protected override sealed string operatorName { get { return "Atan"; } }
-
-        protected override sealed ValidTypeRule typeFilter { get { return ValidTypeRule.allowEverythingExceptInteger; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { new VFXExpressionATan(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb12f5fb1a9af38ed9f153c0c88273fd899b3fb7bb092a30d1b2ceb4d1c13e78
+size 649

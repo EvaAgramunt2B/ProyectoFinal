@@ -1,28 +1,3 @@
-using System;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Clamp")]
-    class Ceiling : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            public float x = 0;
-        }
-
-        protected override sealed string operatorName { get { return "Ceiling"; } }
-
-        protected override sealed ValidTypeRule typeFilter
-        {
-            get
-            {
-                return ValidTypeRule.allowEverythingExceptIntegerAndDirection;
-            }
-        }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { VFXOperatorUtility.Ceil(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c16b569c5363fc4474fe37d53686389611d923c017dfaac417682dc9979f1420
+size 750

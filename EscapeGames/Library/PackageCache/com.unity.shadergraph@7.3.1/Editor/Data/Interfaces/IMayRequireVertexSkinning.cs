@@ -1,18 +1,3 @@
-﻿using UnityEditor.Graphing;
-
-namespace UnityEditor.ShaderGraph
-{
-    interface IMayRequireVertexSkinning
-    {
-        bool RequiresVertexSkinning(ShaderStageCapability stageCapability = ShaderStageCapability.All);
-    }
-
-    static class MayRequireVertexSkinningExtensions
-    {
-        public static bool RequiresVertexSkinning(this ISlot slot)
-        {
-            var mayRequireVertexSkinning = slot as IMayRequireVertexSkinning;
-            return mayRequireVertexSkinning != null && mayRequireVertexSkinning.RequiresVertexSkinning();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:070137dcc768e2b584127fdc94600ea93a1a4ff560dbc225af378e36745b5b51
+size 580

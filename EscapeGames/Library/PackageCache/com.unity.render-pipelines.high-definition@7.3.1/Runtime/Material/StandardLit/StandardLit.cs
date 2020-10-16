@@ -1,36 +1,3 @@
-namespace UnityEngine.Rendering.HighDefinition
-{
-    partial class StandardLit
-    {
-        //-----------------------------------------------------------------------------
-        // BSDFData
-        //-----------------------------------------------------------------------------
-        [GenerateHLSL]
-        public struct StandardBSDFData
-        {
-            // GBuffer0
-            public Vector3 baseColor;
-            public float specularOcclusion;
-
-            // GBuffer1
-            public Vector3 normalWS;
-            public float perceptualRoughness;
-
-            // Gbuffer2
-            public Vector3 fresnel0;
-            public float coatMask;
-
-            // Gbuffer3
-            public Vector3 emissiveAndBaked;
-
-            // Gbuffer4
-            public uint renderingLayers;
-
-            // Gbuffer5
-            public Vector4 shadowMasks;
-
-            // Lighting flag
-            public uint isUnlit;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e0ebdfc1e40825903aa948232393ab199b1db10190ebf860ee18bec5e52bd00
+size 982

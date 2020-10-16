@@ -1,15 +1,3 @@
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Arithmetic")]
-    class Power : VFXOperatorNumericCascadedUnified
-    {
-        protected override sealed string operatorName { get { return "Power"; } }
-        protected override sealed double defaultValueDouble { get { return 1.0; } }
-        protected override sealed ValidTypeRule typeFilter { get { return ValidTypeRule.allowEverythingExceptIntegerAndDirection; } }
-
-        protected override sealed VFXExpression ComposeExpression(VFXExpression a, VFXExpression b)
-        {
-            return new VFXExpressionPow(a, b);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ad6627e8839548df7fe8ef02b0a005602be94ce3a97d2b5fdf91403454f67dc
+size 630

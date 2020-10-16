@@ -1,29 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Attribute")]
-    class AgeOverLifetime : VFXOperator
-    {
-        public class OutputProperties
-        {
-            public float t = 0;
-        }
-
-        public override string name
-        {
-            get
-            {
-                return "Age Over Lifetime [0..1]";
-            }
-        }
-        protected override VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            VFXExpression[] output = new VFXExpression[] { new VFXAttributeExpression(VFXAttribute.Age) / new VFXAttributeExpression(VFXAttribute.Lifetime) };
-            return output;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f90f8a511c113c3932faab130d4fbd43a261253b6b68f7f68e53205e85fce5e4
+size 785

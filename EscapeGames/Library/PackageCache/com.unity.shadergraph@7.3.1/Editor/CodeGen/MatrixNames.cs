@@ -1,16 +1,3 @@
-using System;
-
-namespace UnityEditor.ShaderGraph
-{
-    struct MatrixNames
-    {
-        public const string Model = "UNITY_MATRIX_M";
-        public const string ModelInverse = "UNITY_MATRIX_I_M";
-        public const string View = "UNITY_MATRIX_V";
-        public const string ViewInverse = "UNITY_MATRIX_I_V";
-        public const string Projection = "UNITY_MATRIX_P";
-        public const string ProjectionInverse = "UNITY_MATRIX_I_P";
-        public const string ViewProjection = "UNITY_MATRIX_VP";
-        public const string ViewProjectionInverse = "UNITY_MATRIX_I_VP";
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:26e72ebcc0997140ff751f643b2d9f5020e4fa48269048c8677ef22bfdaa5830
+size 600

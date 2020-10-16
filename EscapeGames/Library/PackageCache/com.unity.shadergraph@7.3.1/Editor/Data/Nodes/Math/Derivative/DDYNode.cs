@@ -1,32 +1,3 @@
-using System.Reflection;
-using UnityEngine;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Derivative", "DDY")]
-    class DDYNode : CodeFunctionNode
-    {
-        public DDYNode()
-        {
-            name = "DDY";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_DDY", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_DDY(
-            [Slot(0, Binding.None)] DynamicDimensionVector In,
-            [Slot(1, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = ddy(In);
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ef1c003935511611f329c2dd4b0aadebb5eb4b37c8ecb7e10199d8c909c53ee
+size 707

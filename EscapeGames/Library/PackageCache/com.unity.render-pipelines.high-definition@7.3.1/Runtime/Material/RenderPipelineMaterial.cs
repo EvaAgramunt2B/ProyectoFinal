@@ -1,25 +1,3 @@
-using UnityEngine.Experimental.Rendering;
-
-namespace UnityEngine.Rendering.HighDefinition
-{
-    class RenderPipelineMaterial : Object
-    {
-        // GBuffer management
-        public virtual bool IsDefferedMaterial() { return false; }
-        public virtual int GetMaterialGBufferCount(HDRenderPipelineAsset asset) { return 0; }
-        public virtual void GetMaterialGBufferDescription(HDRenderPipelineAsset asset, out GraphicsFormat[] RTFormat, out GBufferUsage[] gBufferUsage, out bool[] enableWrite)
-        {
-            RTFormat = null;
-            gBufferUsage = null;
-            enableWrite = null;
-        }
-
-        // Regular interface
-        public virtual void Build(HDRenderPipelineAsset hdAsset, RenderPipelineResources defaultResources) {}
-        public virtual void Cleanup() {}
-
-        // Following function can be use to initialize GPU resource (once or each frame) and bind them
-        public virtual void RenderInit(CommandBuffer cmd) {}
-        public virtual void Bind(CommandBuffer cmd) {}
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f234be8cae23b38eef202c79fb6f03caf775b864e82459251e783d0ad7bcfdf9
+size 1054

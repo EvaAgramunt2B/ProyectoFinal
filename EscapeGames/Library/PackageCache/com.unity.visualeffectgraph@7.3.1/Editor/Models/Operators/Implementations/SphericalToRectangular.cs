@@ -1,33 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Coordinates")]
-    class SphericalToRectangular : VFXOperator
-    {
-        public class InputProperties
-        {
-            [Tooltip("Sets the radial coordinate (Radius r).")]
-            public float distance = 1.0f;
-            [Tooltip("Sets the angular coordinate (Polar angle θ) in radians.")]
-            public float theta = 45.0f;
-            [Tooltip("Sets the pitch coordinate (Azimuth angle ϕ) in radians.")]
-            public float phi = 45.0f;
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the spherical coordinates (r,θ,ϕ) in rectangular (x,y,z) coordinates.")]
-            public Vector3 coord = Vector3.zero;
-        }
-
-        override public string name { get { return "Spherical to Rectangular"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { VFXOperatorUtility.SphericalToRectangular(inputExpression[0], inputExpression[1], inputExpression[2]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fb586789ec19ff52f23dc4c3911c77ed691c7d463224629bdb4b6e4cb705afe
+size 1183

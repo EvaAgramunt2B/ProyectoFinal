@@ -1,21 +1,3 @@
-using UnityEngine.Rendering.HighDefinition;
-
-namespace UnityEditor.Rendering.HighDefinition
-{
-    internal abstract class VolumeComponentWithQualityEditor : VolumeComponentEditor
-    {
-        // Quality settings
-        SerializedDataParameter m_QualitySetting;
-
-        public override void OnEnable()
-        {
-            var o = new PropertyFetcher<VolumeComponentWithQuality>(serializedObject);
-            m_QualitySetting = Unpack(o.Find(x => x.quality));
-        }
-
-        public override void OnInspectorGUI() =>PropertyField(m_QualitySetting);
-
-        protected bool useCustomValue => m_QualitySetting.value.intValue == ScalableSettingLevelParameter.LevelCount;
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77f330b8480106a4775ae684e2ae385f91e12482982b65b0e08cefd90ec88f6d
+size 705

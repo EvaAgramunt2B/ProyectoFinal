@@ -1,29 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Geometry")]
-    class InverseTRSMatrix : VFXOperator
-    {
-        public class InputProperties
-        {
-            [Tooltip("Sets the Matrix4x4 to be inverted (should not be singular).")]
-            public Matrix4x4 matrix = Matrix4x4.identity;
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the inverted Matrix4x4.")]
-            public Matrix4x4 o = Matrix4x4.identity;
-        }
-
-        override public string name { get { return "InvertTRS (Matrix)"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new VFXExpression[] { new VFXExpressionInverseTRSMatrix(inputExpression[0]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9bd4e8b516ca66c02e631896238ca925d81775c53f911843ed7ea30cd60d5a1
+size 881

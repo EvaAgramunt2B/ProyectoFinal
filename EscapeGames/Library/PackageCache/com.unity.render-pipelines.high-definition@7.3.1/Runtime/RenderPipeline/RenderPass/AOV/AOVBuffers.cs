@@ -1,17 +1,3 @@
-namespace UnityEngine.Rendering.HighDefinition
-{
-    /// <summary> Buffers available in HDRP </summary>
-    public enum AOVBuffers
-    {
-        /// <summary>Color buffer that will be used at the end, include post processes.</summary>
-        Output,
-        /// <summary>Color buffer that will be used before post processes.</summary>
-        Color,
-        /// <summary>DepthStencil buffer at the end of the frame.</summary>
-        DepthStencil,
-        /// <summary>Normals buffer at the end of the frame.</summary>
-        Normals,
-        /// <summary>Motion vectors buffer at the end of the frame.</summary>
-        MotionVectors
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2ff5cd8ad936668d837cc732c97fc90cb568cc21483619ea6ff0ad1916e0826
+size 662

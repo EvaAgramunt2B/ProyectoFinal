@@ -1,31 +1,3 @@
-using System;
-using UnityEditor.Graphing;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Serializable]
-    class CubemapMaterialSlot : MaterialSlot
-    {
-        public CubemapMaterialSlot()
-        {}
-
-        public CubemapMaterialSlot(
-            int slotId,
-            string displayName,
-            string shaderOutputName,
-            SlotType slotType,
-            ShaderStageCapability stageCapability = ShaderStageCapability.All,
-            bool hidden = false)
-            : base(slotId, displayName, shaderOutputName, slotType, stageCapability, hidden)
-        {}
-
-        public override SlotValueType valueType { get { return SlotValueType.Cubemap; } }
-        public override ConcreteSlotValueType concreteValueType { get { return ConcreteSlotValueType.Cubemap; } }
-
-        public override void AddDefaultProperty(PropertyCollector properties, GenerationMode generationMode)
-        {}
-
-        public override void CopyValuesFrom(MaterialSlot foundSlot)
-        {}
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5953872da4701e9e0658ac6b53d0f6b1ed564803848e17bbb621102b60e9f2a
+size 1019

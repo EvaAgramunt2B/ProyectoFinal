@@ -1,34 +1,3 @@
-using System.Reflection;
-using UnityEngine;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Range", "Remap")]
-    class RemapNode : CodeFunctionNode
-    {
-        public RemapNode()
-        {
-            name = "Remap";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Remap", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Remap(
-            [Slot(0, Binding.None, -1, -1, -1, -1)] DynamicDimensionVector In,
-            [Slot(1, Binding.None, -1, 1, 0, 0)] Vector2 InMinMax,
-            [Slot(2, Binding.None, 0, 1, 0, 0)] Vector2 OutMinMax,
-            [Slot(3, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y - InMinMax.x);
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1f6203f8967bff2f921359a3e30b00bae24094dd8718c635b56b41f358172c4
+size 948

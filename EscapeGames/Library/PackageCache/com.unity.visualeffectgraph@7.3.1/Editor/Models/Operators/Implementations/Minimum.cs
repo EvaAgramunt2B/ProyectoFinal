@@ -1,21 +1,3 @@
-using System;
-using UnityEditor.VFX;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Clamp")]
-    class Minimum : VFXOperatorNumericCascadedUnified
-    {
-        protected override sealed string operatorName { get { return "Minimum"; } }
-
-        protected override sealed double defaultValueDouble { get { return 0.0; } }
-        protected override sealed float identityValueFloat { get { return float.MaxValue; } }
-        protected override sealed int identityValueInt { get { return int.MaxValue; } }
-        protected override sealed uint identityValueUint { get { return uint.MaxValue; } }
-
-        protected override sealed VFXExpression ComposeExpression(VFXExpression a, VFXExpression b)
-        {
-            return new VFXExpressionMin(a, b);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c870a06bdfed2a1597d8964d4075a49da7999af80f4131db042e2515750cf8a
+size 813

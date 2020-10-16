@@ -1,16 +1,3 @@
-namespace UnityEngine.Rendering.HighDefinition
-{
-    /// <summary>
-    /// Use this components to define a proxy volume for the reflection probes.
-    /// </summary>
-    [HelpURL(Documentation.baseURL + Documentation.version + Documentation.subURL + "Reflection-Proxy-Volume" + Documentation.endURL)]
-    [AddComponentMenu("Rendering/Reflection Proxy Volume")]
-    public class ReflectionProxyVolumeComponent : MonoBehaviour
-    {
-        [SerializeField]
-        ProxyVolume m_ProxyVolume = new ProxyVolume();
-
-        /// <summary>Access to proxy volume parameters</summary>
-        public ProxyVolume proxyVolume => m_ProxyVolume;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b2aa021c8f42efa38cbb76ea56a187cb1131dbec0957faa8e901aa187395f8a
+size 658

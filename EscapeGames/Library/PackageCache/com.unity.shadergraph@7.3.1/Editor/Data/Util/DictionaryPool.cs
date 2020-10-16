@@ -1,25 +1,3 @@
-using System.Collections.Generic;
-
-namespace UnityEditor.Graphing
-{
-    static class DictionaryPool<TKey, TValue>
-    {
-        // Object pool to avoid allocations.
-        static readonly ObjectPool<Dictionary<TKey, TValue>> k_Pool = new ObjectPool<Dictionary<TKey, TValue>>(null, l => l.Clear());
-
-        public static Dictionary<TKey, TValue> Get()
-        {
-            return k_Pool.Get();
-        }
-
-        public static PooledObject<Dictionary<TKey, TValue>> GetDisposable()
-        {
-            return k_Pool.GetDisposable();
-        }
-
-        public static void Release(Dictionary<TKey, TValue> toRelease)
-        {
-            k_Pool.Release(toRelease);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fc9d516042be3d174e60fe4f3b49b8e6adfb8234e62d7f3ff179b696dc58829
+size 711

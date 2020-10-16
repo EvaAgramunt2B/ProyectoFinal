@@ -1,30 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Color")]
-    class HSVtoRGB : VFXOperator
-    {
-        public class InputProperties
-        {
-            [Tooltip("Sets the Hue, Saturation, and Value parameters to be converted to color values.")]
-            public Vector3 HSV = new Vector3(1.0f, 0.5f, 0.5f);
-        }
-
-        public class OutputProperties
-        {
-            [Tooltip("Outputs the color values derived from the Hue, Saturation, and Value parameters.")]
-            public Vector4 RGB = Vector4.zero;
-        }
-
-        override public string name { get { return "HSV to RGB"; } }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            VFXExpression[] rgb = VFXOperatorUtility.ExtractComponents(new VFXExpressionHSVtoRGB(inputExpression[0])).Take(3).ToArray();
-            return new[] { new VFXExpressionCombine(new[] { rgb[0], rgb[1], rgb[2], VFXValue.Constant(1.0f) }) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:987402e8ec5138857fb46bce29670279fbb69bfe186137ba8c710cc990bd8875
+size 1080

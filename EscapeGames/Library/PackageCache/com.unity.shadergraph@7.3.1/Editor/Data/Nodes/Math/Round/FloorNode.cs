@@ -1,31 +1,3 @@
-using System.Reflection;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Title("Math", "Round", "Floor")]
-    class FloorNode : CodeFunctionNode
-    {
-        public FloorNode()
-        {
-            name = "Floor";
-        }
-
-
-        protected override MethodInfo GetFunctionToConvert()
-        {
-            return GetType().GetMethod("Unity_Floor", BindingFlags.Static | BindingFlags.NonPublic);
-        }
-
-        static string Unity_Floor(
-            [Slot(0, Binding.None)] DynamicDimensionVector In,
-            [Slot(1, Binding.None)] out DynamicDimensionVector Out)
-        {
-            return
-                @"
-{
-    Out = floor(In);
-}
-";
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:599efb416d3f83db83c8d6b18fd1b5a6e4d06db40452d88bf9ba59cc792efbe1
+size 696

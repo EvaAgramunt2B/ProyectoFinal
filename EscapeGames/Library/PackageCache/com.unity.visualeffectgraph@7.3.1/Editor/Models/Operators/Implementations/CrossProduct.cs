@@ -1,33 +1,3 @@
-using System;
-using System.Linq;
-using UnityEngine;
-
-namespace UnityEditor.VFX.Operator
-{
-    [VFXInfo(category = "Math/Vector")]
-    class CrossProduct : VFXOperatorNumericUniform
-    {
-        public class InputProperties
-        {
-            [Tooltip("The first operand.")]
-            public Vector3 a = Vector3.right;
-            [Tooltip("The second operand.")]
-            public Vector3 b = Vector3.up;
-        }
-
-        protected override sealed string operatorName { get { return "Cross Product"; } }
-
-        protected override sealed ValidTypeRule typeFilter
-        {
-            get
-            {
-                return ValidTypeRule.allowVector3Type | ValidTypeRule.allowSpaceable;
-            }
-        }
-
-        protected override sealed VFXExpression[] BuildExpression(VFXExpression[] inputExpression)
-        {
-            return new[] { VFXOperatorUtility.Cross(inputExpression[0], inputExpression[1]) };
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ba009e1130db31506aaf6252f1c81a300ba34f1d206f64f0bd81f182a95f9ea
+size 979

@@ -1,16 +1,3 @@
-using System;
-
-namespace UnityEngine.Rendering.HighDefinition
-{
-    /// <summary>
-    /// Decal debug settings.
-    /// </summary>
-    [Serializable]
-    public class DecalsDebugSettings
-    {
-        /// <summary>Display the decal atlas.</summary>
-        public bool displayAtlas = false;
-        /// <summary>Displayed decal atlas mip level.</summary>
-        public UInt32 mipLevel = 0;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2746b1dc6bf1b7e7be5fc068b5d84b79eaf21842bbf968d8b161f674bf6f5fa0
+size 415

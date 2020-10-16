@@ -1,36 +1,3 @@
-using System;
-using UnityEditor.ShaderGraph.Drawing.Slots;
-using UnityEditor.ShaderGraph.Internal;
-using UnityEngine.UIElements;
-
-namespace UnityEditor.ShaderGraph
-{
-    [Serializable]
-    class TangentMaterialSlot : SpaceMaterialSlot, IMayRequireTangent
-    {
-        public TangentMaterialSlot()
-        {}
-
-        public TangentMaterialSlot(int slotId, string displayName, string shaderOutputName, CoordinateSpace space,
-                                   ShaderStageCapability stageCapability = ShaderStageCapability.All, bool hidden = false)
-            : base(slotId, displayName, shaderOutputName, space, stageCapability, hidden)
-        {}
-
-        public override VisualElement InstantiateControl()
-        {
-            return new LabelSlotControlView(space + " Space");
-        }
-
-        public override string GetDefaultValue(GenerationMode generationMode)
-        {
-            return string.Format("IN.{0}", space.ToVariableName(InterpolatorType.Tangent));
-        }
-
-        public NeededCoordinateSpace RequiresTangent(ShaderStageCapability stageCapability)
-        {
-            if (isConnected)
-                return NeededCoordinateSpace.None;
-            return space.ToNeededCoordinateSpace();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:71c118fc07dc595f83d671b6afe8438bde82b1d1afaf9bc5d09e9ca6a660dba8
+size 1272

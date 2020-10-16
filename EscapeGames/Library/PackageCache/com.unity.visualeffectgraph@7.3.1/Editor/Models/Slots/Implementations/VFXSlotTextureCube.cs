@@ -1,16 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.VFX;
-using UnityEngine.Rendering;
-
-namespace UnityEditor.VFX
-{
-    [VFXInfo(type = typeof(Cubemap))]
-    class VFXSlotTextureCube : VFXSlot
-    {
-        public override VFXValue DefaultExpression(VFXValue.Mode mode)
-        {
-            return new VFXTextureCubeValue(null, mode);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:108708b1bdafb3f362cddbb993b776da1cdf331a9dba6c1b8ff377f621de1093
+size 368
