@@ -1558,6 +1558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChessTable
       objectReference: {fileID: 0}
+    - target: {fileID: 8268505742871896096, guid: c72ed5c6de36efb42b4d38b0461c8d86,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 8787774695737424538, guid: c72ed5c6de36efb42b4d38b0461c8d86,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1566,7 +1571,7 @@ PrefabInstance:
     - target: {fileID: 8787774695737424538, guid: c72ed5c6de36efb42b4d38b0461c8d86,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.504
       objectReference: {fileID: 0}
     - target: {fileID: 8787774695737424538, guid: c72ed5c6de36efb42b4d38b0461c8d86,
         type: 3}
