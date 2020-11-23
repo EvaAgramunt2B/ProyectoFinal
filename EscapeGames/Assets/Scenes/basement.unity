@@ -1983,7 +1983,7 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: 18670
+    surfaceParameter: 18294
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 3413725471215465640
@@ -3226,7 +3226,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 18690
+    surfaceParameter: 18296
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 3913996559562421706
@@ -3381,7 +3381,7 @@ PrefabInstance:
     - target: {fileID: 8268505742871896096, guid: c72ed5c6de36efb42b4d38b0461c8d86,
         type: 3}
       propertyPath: m_TagString
-      value: Key
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 8787774695737424538, guid: c72ed5c6de36efb42b4d38b0461c8d86,
         type: 3}
@@ -6487,7 +6487,6 @@ MonoBehaviour:
   animator1: {fileID: 1163067087}
   isOpen: 0
   Position: {fileID: 1406987449}
-  cantOpenText: {fileID: 1459740756}
 --- !u!65 &1231899859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6879,7 +6878,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 18690
+    surfaceParameter: 18296
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 5985095552552078256
@@ -7453,7 +7452,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 18690
+    surfaceParameter: 18296
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 3413725471215465640
@@ -8633,7 +8632,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 18690
+    surfaceParameter: 18296
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 3413725471215465640
@@ -9571,7 +9570,6 @@ MonoBehaviour:
   animator1: {fileID: 309183430}
   isOpen: 0
   Position: {fileID: 249502476}
-  cantOpenText: {fileID: 1459740756}
 --- !u!65 &1806017169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10457,7 +10455,7 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: 18670
+    surfaceParameter: 18294
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 3913996559562421706
