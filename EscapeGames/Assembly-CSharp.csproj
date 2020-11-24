@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cosas del Unity\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\Cajones.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviour.cs" />
