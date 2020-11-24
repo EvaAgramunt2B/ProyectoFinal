@@ -64,17 +64,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cosas del Unity\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\BasementDrawerKey.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\Scripts\Doors.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
-    <Compile Include="Assets\Scripts\Keys.cs" />
+    <Compile Include="Assets\Scripts\Keys\BasementDrawerKey.cs" />
     <Compile Include="Assets\Scripts\LogoManager.cs" />
     <Compile Include="Assets\Scripts\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\PauseManager.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
+    <Compile Include="Assets\Scripts\PublicVariables.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
