@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/samplescene.unity
     guid: cbfe36cfddfde964d9dfce63a355d5dd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Logo.unity
     guid: 037d2fc69b6214243b523a0a9365a19c
   - enabled: 1
@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestingScene.unity
     guid: e2d81153f4ecbf2498085912051bb4d7
+  - enabled: 1
+    path: Assets/Scenes/basement.unity
+    guid: 416c1f9f009d36946bbd4ac538edec08
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 5d32e88e5ce6feb4bab5d4063c3a7f61
   m_configObjects: {}
