@@ -252,7 +252,7 @@ MonoBehaviour:
   m_PointlightHDType: 1
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 0.02
+  m_Intensity: 0.01
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -354,7 +354,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.02546479
+  m_Intensity: 0.012732395
   m_Range: 26.36
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -786,7 +786,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 4404839247605695133, guid: 6b0c8373e0bab304d9989309b67bd5e7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -879,7 +879,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 4404839247605695133, guid: 6b0c8373e0bab304d9989309b67bd5e7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -972,7 +972,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 4404839247605695133, guid: 6b0c8373e0bab304d9989309b67bd5e7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1084,7 +1084,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 2100000, guid: d92ef32394b5f474385d74b565a7bdd7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1142,7 +1142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &399887802
 Transform:
   m_ObjectHideFlags: 0
@@ -3581,7 +3581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGlobal: 1
-  priority: 0
+  priority: 6.57
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 9578acad77f148a43977c14d596382b6, type: 2}
@@ -3789,7 +3789,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 4404839247605695133, guid: 6b0c8373e0bab304d9989309b67bd5e7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4537,7 +4537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1960778581
 Transform:
   m_ObjectHideFlags: 0
@@ -4572,13 +4572,13 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 2
+  m_Intensity: 5
   m_EnableSpotReflector: 0
-  m_LuxAtDistance: 0.57
-  m_InnerSpotPercent: 75.7
+  m_LuxAtDistance: 0.56
+  m_InnerSpotPercent: 83.7
   m_LightDimmer: 1
-  m_VolumetricDimmer: 1
-  m_LightUnit: 2
+  m_VolumetricDimmer: 2
+  m_LightUnit: 0
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -4674,9 +4674,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.665492, g: 0.5479708, b: 0.8867924, a: 1}
-  m_Intensity: 0.6498
+  m_Intensity: 0.39788735
   m_Range: 6
-  m_SpotAngle: 31.21
+  m_SpotAngle: 32.7
   m_InnerSpotAngle: 14.3
   m_CookieSize: 10
   m_Shadows:
@@ -4717,8 +4717,8 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_ColorTemperature: 11238
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 5.86}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
@@ -5885,6 +5885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597574292417017539, guid: 478b61c927529624e83634c3bbff604b,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.42745098
       objectReference: {fileID: 0}
     - target: {fileID: 7597574292417017540, guid: 478b61c927529624e83634c3bbff604b,
         type: 3}
