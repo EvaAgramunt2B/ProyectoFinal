@@ -4531,6 +4531,7 @@ GameObject:
   - component: {fileID: 1960778581}
   - component: {fileID: 1960778583}
   - component: {fileID: 1960778582}
+  - component: {fileID: 1960778585}
   - component: {fileID: 1960778584}
   m_Layer: 0
   m_Name: Flashlight
@@ -4670,7 +4671,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960778580}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -4820,6 +4821,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1960778585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960778580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b9897ddc850964d8e1bc70a37747d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlight: {fileID: 1960778583}
+  audioSource: {fileID: 1960778584}
+  soundFlashlightOn: {fileID: 8300000, guid: 1a1ea50cd5f3b4c4da1c544e9ea0911f, type: 3}
+  soundFlashlightOff: {fileID: 8300000, guid: 8dd8307d8e0787d40ac51e1cc2ea6729, type: 3}
 --- !u!1 &2003242408
 GameObject:
   m_ObjectHideFlags: 0
