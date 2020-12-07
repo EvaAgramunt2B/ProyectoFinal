@@ -62,7 +62,7 @@
      <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviour.cs" />
      <Compile Include="Assets\Scripts\CuentaAtras.cs" />
      <Compile Include="Assets\Scripts\Doors.cs" />
-     <Compile Include="Assets\Scripts\Flashlight.cs" />
+     <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
      <Compile Include="Assets\Scripts\GameOverMenu.cs" />
      <Compile Include="Assets\Scripts\IInteractable.cs" />
      <Compile Include="Assets\Scripts\Keys\BasementDrawerKey.cs" />

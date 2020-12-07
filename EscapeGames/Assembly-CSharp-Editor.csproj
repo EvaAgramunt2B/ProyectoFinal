@@ -251,17 +251,17 @@
  <Reference Include="UnityEditor.WebGL.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.NRefactory">
- <HintPath>D:/CEV/PROYECTO/Github/EscapeGames/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ <Reference Include="Substance.Game">
+ <HintPath>D:/CEV/PROYECTO/Github/EscapeGames/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
  </Reference>
  <Reference Include="Substance.Editor">
  <HintPath>D:/CEV/PROYECTO/Github/EscapeGames/Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Substance.Game">
- <HintPath>D:/CEV/PROYECTO/Github/EscapeGames/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
- </Reference>
  <Reference Include="SourceUnityLib">
  <HintPath>D:/CEV/PROYECTO/Github/EscapeGames/Assets/Allegorithmic/Plugins/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>D:/CEV/PROYECTO/Github/EscapeGames/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/CEV/PROYECTO/Github/EscapeGames/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
