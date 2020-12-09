@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6144199289887149798}
   - component: {fileID: 7127877860422926659}
   - component: {fileID: 4976398903553406345}
+  - component: {fileID: 1624590469718517811}
   m_Layer: 0
   m_Name: Linterna_low
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1624590469718517811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6777710868384584796}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.22812206, y: 0.22809547, z: 0.34090263}
+  m_Center: {x: -0.00000002235174, y: 0.000000011175874, z: 0.1722481}
