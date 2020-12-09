@@ -305,6 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashlight: {fileID: 44297614}
   audioSource: {fileID: 44297611}
+  linterna: {fileID: 1297041094}
   soundFlashlightOn: {fileID: 660210486}
   soundFlashlightOff: {fileID: 1277266060}
 --- !u!108 &44297614 stripped
@@ -2330,7 +2331,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21950
+    surfaceParameter: 20896
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 4292982905450472853
@@ -3893,7 +3894,7 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: 21940
+    surfaceParameter: 19654
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 869444052787089583
@@ -4787,7 +4788,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21950
+    surfaceParameter: 20896
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 7378618941775156433
@@ -6756,6 +6757,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5245423857754014521, guid: f931a992106c04645a7968bca2172acf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5547738575184366835, guid: f931a992106c04645a7968bca2172acf,
         type: 3}
       propertyPath: m_Enabled
@@ -7928,7 +7934,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21950
+    surfaceParameter: 20896
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: -7515244134089846638
@@ -8152,7 +8158,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21950
+    surfaceParameter: 20896
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 869444052787089583
@@ -10802,7 +10808,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.98, y: 0.83, z: 1.87}
   m_Center: {x: -0.00000002235174, y: 0.000000011175874, z: 0.1722481}
---- !u!114 &1345839603
+--- !u!114 &1345839602
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10811,7 +10817,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1345839600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6058cebbadb2fb4a8b9bf8fd180b30f, type: 3}
+  m_Script: {fileID: 11500000, guid: 615207edb41f8444292eaff1b36a49d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemButton: {fileID: 9152439793885235007, guid: 8042b2ed5db60e14d81530e69c0783dd,
@@ -11137,7 +11143,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21950
+    surfaceParameter: 20896
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 869444052787089583
@@ -12160,7 +12166,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21950
+    surfaceParameter: 20896
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: -8306638369267103446
@@ -12736,7 +12742,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21950
+    surfaceParameter: 20896
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 26317892697572562
