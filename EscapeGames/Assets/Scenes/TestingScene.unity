@@ -5515,6 +5515,10 @@ PrefabInstance:
       propertyPath: InventoryMenu
       value: 
       objectReference: {fileID: 1244432680}
+    - target: {fileID: 1960778583, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2121020071, guid: f931a992106c04645a7968bca2172acf, type: 3}
       propertyPath: slots.Array.data[0]
       value: 
