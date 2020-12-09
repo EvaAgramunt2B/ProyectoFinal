@@ -193,7 +193,7 @@ MonoBehaviour:
     supportSSAO: 1
     supportSubsurfaceScattering: 1
     increaseSssSampleCount: 0
-    supportVolumetrics: 1
+    supportVolumetrics: 0
     increaseResolutionOfVolumetrics: 0
     supportLightLayers: 0
     lightLayerName0: Light Layer default
@@ -220,7 +220,7 @@ MonoBehaviour:
     supportTerrainHole: 0
     supportRayTracing: 0
     lightLoopSettings:
-      cookieAtlasSize: 128
+      cookieAtlasSize: 256
       cookieFormat: 74
       pointCookieSize: 128
       cubeCookieTexArraySize: 16
