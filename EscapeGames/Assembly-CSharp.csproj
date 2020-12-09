@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\GameOverMenu.cs" />
      <Compile Include="Assets\Scripts\IInteractable.cs" />
      <Compile Include="Assets\Scripts\Keys\BasementDrawerKey.cs" />
+     <Compile Include="Assets\Scripts\LoadingMain.cs" />
      <Compile Include="Assets\Scripts\LogoManager.cs" />
      <Compile Include="Assets\Scripts\MainMenuManager.cs" />
      <Compile Include="Assets\Scripts\NumPad.cs" />
@@ -75,6 +76,7 @@
      <Compile Include="Assets\Scripts\PauseManager.cs" />
      <Compile Include="Assets\Scripts\PickUp.cs" />
      <Compile Include="Assets\Scripts\PublicVariables.cs" />
+     <Compile Include="Assets\Scripts\SceneLoading.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
