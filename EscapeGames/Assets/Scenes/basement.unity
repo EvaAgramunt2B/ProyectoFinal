@@ -2296,7 +2296,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21902
+    surfaceParameter: 21950
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 4292982905450472853
@@ -3859,7 +3859,7 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: 21892
+    surfaceParameter: 21940
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 869444052787089583
@@ -4874,7 +4874,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21902
+    surfaceParameter: 21950
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 7378618941775156433
@@ -6684,6 +6684,10 @@ PrefabInstance:
       propertyPath: GodModeTxt
       value: 
       objectReference: {fileID: 1938689329}
+    - target: {fileID: 1960778580, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1960778581, guid: f931a992106c04645a7968bca2172acf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.128
@@ -6700,6 +6704,35 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1960778584, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 3742664979502496426, guid: f8a139210e3a5564ba3fdd2452cba7ee,
+        type: 2}
+    - target: {fileID: 2121020071, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: slots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1994674350}
+    - target: {fileID: 2121020071, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: slots.Array.data[1]
+      value: 
+      objectReference: {fileID: 59941089}
+    - target: {fileID: 2121020071, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: slots.Array.data[2]
+      value: 
+      objectReference: {fileID: 906977848}
+    - target: {fileID: 2121020071, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: slots.Array.data[3]
+      value: 
+      objectReference: {fileID: 833607687}
+    - target: {fileID: 2121020071, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: slots.Array.data[4]
+      value: 
+      objectReference: {fileID: 164469075}
+    - target: {fileID: 2121020071, guid: f931a992106c04645a7968bca2172acf, type: 3}
+      propertyPath: slots.Array.data[5]
+      value: 
+      objectReference: {fileID: 1562580459}
     - target: {fileID: 369451026184276318, guid: f931a992106c04645a7968bca2172acf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6780,6 +6813,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.118
       objectReference: {fileID: 0}
+    - target: {fileID: 3243484733118319850, guid: f931a992106c04645a7968bca2172acf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5547738575184366835, guid: f931a992106c04645a7968bca2172acf,
         type: 3}
       propertyPath: m_Enabled
@@ -6787,32 +6825,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f931a992106c04645a7968bca2172acf, type: 3}
---- !u!1 &795233626 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 705735340990874327, guid: f931a992106c04645a7968bca2172acf,
-    type: 3}
-  m_PrefabInstance: {fileID: 795233625}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &795233627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795233626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5ee87d5331181a42a5287a6d57be969, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isFull: 000000000000
-  slots:
-  - {fileID: 1994674350}
-  - {fileID: 59941089}
-  - {fileID: 906977848}
-  - {fileID: 833607687}
-  - {fileID: 164469075}
-  - {fileID: 1562580459}
 --- !u!1001 &804292074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7977,7 +7989,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21902
+    surfaceParameter: 21950
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: -7515244134089846638
@@ -8201,7 +8213,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21902
+    surfaceParameter: 21950
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 869444052787089583
@@ -11071,7 +11083,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21902
+    surfaceParameter: 21950
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 869444052787089583
@@ -12094,7 +12106,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21902
+    surfaceParameter: 21950
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: -8306638369267103446
@@ -12670,7 +12682,7 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
-    surfaceParameter: 21902
+    surfaceParameter: 21950
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 26317892697572562
