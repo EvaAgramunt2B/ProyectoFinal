@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\CuentaAtras.cs" />
      <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
      <Compile Include="Assets\Scripts\Flashlight\FlashlightPickUp.cs" />
+     <Compile Include="Assets\Scripts\Flickerlight.cs" />
      <Compile Include="Assets\Scripts\Interactables\BasementCajonConObjeto.cs" />
      <Compile Include="Assets\Scripts\Interactables\BasementLockerConObjeto.cs" />
      <Compile Include="Assets\Scripts\Interactables\Cajones.cs" />
