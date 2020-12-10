@@ -1407,7 +1407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &698486920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1531,7 +1531,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 0.45359156
-  m_Range: 5.7
+  m_Range: 5.4
   m_SpotAngle: 48
   m_InnerSpotAngle: 1
   m_CookieSize: 10
@@ -1569,7 +1569,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2010,6 +2010,8 @@ MonoBehaviour:
   isOpen: 0
   Position: {fileID: 1918125717}
   CantOpenTxt: {fileID: 0}
+  OpenAudio: {fileID: 0}
+  CloseAudio: {fileID: 0}
 --- !u!1 &1138798088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3515,6 +3517,8 @@ MonoBehaviour:
   isOpen: 0
   Position: {fileID: 2034323473}
   CantOpenTxt: {fileID: 0}
+  OpenAudio: {fileID: 0}
+  CloseAudio: {fileID: 0}
 --- !u!65 &1607426982
 BoxCollider:
   m_ObjectHideFlags: 0
