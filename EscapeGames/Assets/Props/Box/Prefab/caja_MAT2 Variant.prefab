@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &4489224463615574763
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343012064724784113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.012215503, y: 0.0069189146, z: 0.007727683}
+  m_Center: {x: 0, y: 2.7562498e-17, z: 0.003879076}
 --- !u!1001 &2189382233258798752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,17 +23,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7d2ba7df889daa84eb388fd49dba2ec8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.9168541
+      value: -3.873798
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d2ba7df889daa84eb388fd49dba2ec8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.49940023
+      value: 0.739115
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d2ba7df889daa84eb388fd49dba2ec8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.17650473
+      value: 5.1538568
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d2ba7df889daa84eb388fd49dba2ec8,
         type: 3}
@@ -70,7 +83,13 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7d2ba7df889daa84eb388fd49dba2ec8,
         type: 3}
       propertyPath: m_Name
-      value: caja_MAT2
+      value: caja_MAT2 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d2ba7df889daa84eb388fd49dba2ec8, type: 3}
+--- !u!1 &1343012064724784113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d2ba7df889daa84eb388fd49dba2ec8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2189382233258798752}
+  m_PrefabAsset: {fileID: 0}
