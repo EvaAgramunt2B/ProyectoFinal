@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\CharacterScripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviour.cs" />
+    <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviourV2.cs" />
     <Compile Include="Assets\Scripts\CuentaAtras.cs" />
     <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
     <Compile Include="Assets\Scripts\Flashlight\FlashlightPickUp.cs" />
