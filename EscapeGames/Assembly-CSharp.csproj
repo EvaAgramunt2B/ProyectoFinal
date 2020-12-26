@@ -73,11 +73,13 @@
     <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
     <Compile Include="Assets\Scripts\Flashlight\FlashlightPickUp.cs" />
     <Compile Include="Assets\Scripts\Flickerlight.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Antiguos\BasementLockerConObjeto.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Antiguos\Lockers.cs" />
     <Compile Include="Assets\Scripts\Interactables\BasementCajonConObjeto.cs" />
-    <Compile Include="Assets\Scripts\Interactables\BasementLockerConObjeto.cs" />
     <Compile Include="Assets\Scripts\Interactables\Cajones.cs" />
     <Compile Include="Assets\Scripts\Interactables\IInteractable.cs" />
-    <Compile Include="Assets\Scripts\Interactables\Lockers.cs" />
+    <Compile Include="Assets\Scripts\Interactables\LockerWithObject.cs" />
+    <Compile Include="Assets\Scripts\Interactables\LockersV2.cs" />
     <Compile Include="Assets\Scripts\Interactables\NumPadInteract.cs" />
     <Compile Include="Assets\Scripts\Interactables\PickUp.cs" />
     <Compile Include="Assets\Scripts\Keys\BasementDrawerKey.cs" />
