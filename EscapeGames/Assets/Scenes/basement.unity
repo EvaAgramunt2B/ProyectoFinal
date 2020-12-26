@@ -17043,10 +17043,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1798347283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 169aa9b071e0da04d9df49700d400eb9, type: 3}
+  m_Script: {fileID: 11500000, guid: 84e58c30f06a61d4ba5ece6013b58325, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position: {fileID: 1798347283}
+  distanceToInteract: 0
+  PressText: {fileID: 1328694097}
   numPadCanvas: {fileID: 863668028}
 --- !u!1 &1806017167
 GameObject:
