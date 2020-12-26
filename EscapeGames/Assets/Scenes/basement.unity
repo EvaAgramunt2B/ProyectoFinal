@@ -15763,13 +15763,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637124790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c893b34dcfb2c047a64e020cf7f035e, type: 3}
+  m_Script: {fileID: 11500000, guid: cfc9717e2ac2af447a4404ecf3c65191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator1: {fileID: 1637124810}
   isOpen: 0
-  Position: {fileID: 1637124790}
+  distanceToInteract: 0
   CantOpenTxt: {fileID: 1459740756}
+  PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 81368799}
   CloseAudio: {fileID: 1826045890}
 --- !u!114 &1637124816
@@ -15781,13 +15782,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637124791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c893b34dcfb2c047a64e020cf7f035e, type: 3}
+  m_Script: {fileID: 11500000, guid: cfc9717e2ac2af447a4404ecf3c65191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator1: {fileID: 1637124811}
   isOpen: 0
-  Position: {fileID: 1637124791}
+  distanceToInteract: 0
   CantOpenTxt: {fileID: 1459740756}
+  PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 81368799}
   CloseAudio: {fileID: 1826045890}
 --- !u!114 &1637124817
@@ -15799,13 +15801,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637124792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c893b34dcfb2c047a64e020cf7f035e, type: 3}
+  m_Script: {fileID: 11500000, guid: cfc9717e2ac2af447a4404ecf3c65191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator1: {fileID: 1637124812}
   isOpen: 0
-  Position: {fileID: 1637124792}
+  distanceToInteract: 0
   CantOpenTxt: {fileID: 1459740756}
+  PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 81368799}
   CloseAudio: {fileID: 1826045890}
 --- !u!114 &1637124818
@@ -15817,13 +15820,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637124793}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c893b34dcfb2c047a64e020cf7f035e, type: 3}
+  m_Script: {fileID: 11500000, guid: cfc9717e2ac2af447a4404ecf3c65191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator1: {fileID: 1637124813}
   isOpen: 0
-  Position: {fileID: 1637124793}
+  distanceToInteract: 0
   CantOpenTxt: {fileID: 1459740756}
+  PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 81368799}
   CloseAudio: {fileID: 1826045890}
 --- !u!114 &1637124819
@@ -15835,13 +15839,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637124794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c893b34dcfb2c047a64e020cf7f035e, type: 3}
+  m_Script: {fileID: 11500000, guid: cfc9717e2ac2af447a4404ecf3c65191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator1: {fileID: 1637124814}
   isOpen: 0
-  Position: {fileID: 1637124794}
+  distanceToInteract: 0
   CantOpenTxt: {fileID: 1459740756}
+  PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 81368799}
   CloseAudio: {fileID: 1826045890}
 --- !u!114 &1637124820
@@ -15853,13 +15858,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637124795}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d92797b1955660e42a7748cc386cfe27, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ca54a5cc95d63e47ba67c9d3da7d9c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator1: {fileID: 1637124809}
   isOpen: 0
-  Position: {fileID: 1637124795}
+  distanceToInteract: 0
   CantOpenTxt: {fileID: 1459740756}
+  PressText: {fileID: 1328694097}
   ObjectPickUp: {fileID: 1345839601}
   OpenAudio: {fileID: 81368799}
   CloseAudio: {fileID: 1826045890}
