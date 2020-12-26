@@ -70,8 +70,9 @@
     <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviourV2.cs" />
     <Compile Include="Assets\Scripts\CuentaAtras.cs" />
+    <Compile Include="Assets\Scripts\Flashlight\Antiguo\FlashlightPickUp.cs" />
     <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
-    <Compile Include="Assets\Scripts\Flashlight\FlashlightPickUp.cs" />
+    <Compile Include="Assets\Scripts\Flashlight\FlashlightPickUpV2.cs" />
     <Compile Include="Assets\Scripts\Flickerlight.cs" />
     <Compile Include="Assets\Scripts\Interactables\Antiguos\BasementCajonConObjeto.cs" />
     <Compile Include="Assets\Scripts\Interactables\Antiguos\BasementLockerConObjeto.cs" />
