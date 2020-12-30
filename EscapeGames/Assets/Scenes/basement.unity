@@ -1645,7 +1645,6 @@ MonoBehaviour:
   PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 122942899}
   CloseAudio: {fileID: 669262771}
-  realColor: {fileID: 2100000, guid: c96c655595d750947bd38efa3ef1d22e, type: 2}
 --- !u!65 &155220075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8899,6 +8898,46 @@ PrefabInstance:
       propertyPath: PressText
       value: 
       objectReference: {fileID: 1328694097}
+    - target: {fileID: 1960778581, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778581, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778582, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_VolumetricShadowDimmer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778582, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_VolumetricDimmer
+      value: 12.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778583, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778583, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778583, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9861635
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778583, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9481132
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778583, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_ColorTemperature
+      value: 5689
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960778583, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_UseColorTemperature
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1960778585, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
       propertyPath: soundFlashlightOn
       value: 
@@ -8990,6 +9029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player V2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038061859836666604, guid: cce6a29542cc64f4ab5d05b21375c055,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
@@ -9675,7 +9719,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1035753211
 Transform:
   m_ObjectHideFlags: 0
@@ -11463,7 +11507,6 @@ MonoBehaviour:
   PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 122942899}
   CloseAudio: {fileID: 669262771}
-  realColor: {fileID: 2100000, guid: c96c655595d750947bd38efa3ef1d22e, type: 2}
 --- !u!65 &1231899859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13999,7 +14042,6 @@ MonoBehaviour:
   PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 122942899}
   CloseAudio: {fileID: 669262771}
-  realColor: {fileID: 2100000, guid: c96c655595d750947bd38efa3ef1d22e, type: 2}
 --- !u!65 &1466185452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19586,7 +19628,6 @@ MonoBehaviour:
   PressText: {fileID: 1328694097}
   OpenAudio: {fileID: 122942899}
   CloseAudio: {fileID: 669262771}
-  realColor: {fileID: 2100000, guid: c96c655595d750947bd38efa3ef1d22e, type: 2}
 --- !u!65 &1976574570
 BoxCollider:
   m_ObjectHideFlags: 0
