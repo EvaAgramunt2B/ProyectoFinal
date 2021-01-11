@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960778580}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20699978, y: 1.518, z: 0.258}
+  m_LocalPosition: {x: 0.243, y: 1.484, z: 0.258}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 312515959119016845}
@@ -45,7 +45,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.665492, g: 0.5479708, b: 0.8867924, a: 1}
+  m_Color: {r: 1, g: 0.9861635, b: 0.9481132, a: 1}
   m_Intensity: 5
   m_Range: 8
   m_SpotAngle: 31.85
@@ -89,7 +89,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 11238
+  m_ColorTemperature: 5689
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 5.86}
   m_UseBoundingSphereOverride: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 50
   m_LightDimmer: 1
-  m_VolumetricDimmer: 16
+  m_VolumetricDimmer: 12.98
   m_LightUnit: 2
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 6075909870981256765}
   - component: {fileID: 920856655}
   - component: {fileID: 2121020071}
+  - component: {fileID: 115709993}
   m_Layer: 0
   m_Name: Player V2
   m_TagString: Player
@@ -409,6 +410,19 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!65 &115709993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705735340990874327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.78, y: 1.86, z: 1}
+  m_Center: {x: 0, y: 0.95, z: 0.48}
 --- !u!1 &4635710935790340368
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +756,7 @@ MonoBehaviour:
   SensibilityMouse: {fileID: 0}
   controller: {fileID: 920856655}
   speed: 12
+  isGrounded: 0
   GodModeTxt: {fileID: 0}
   InventoryMenu: {fileID: 0}
   PressText: {fileID: 0}
