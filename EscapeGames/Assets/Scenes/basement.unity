@@ -17542,7 +17542,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: dd97e136907fd3a4bac3de9b67807b7f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.122
+      value: 1.336
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dd97e136907fd3a4bac3de9b67807b7f,
         type: 3}
@@ -17654,6 +17654,21 @@ MonoBehaviour:
   distanceToInteract: 0
   PressText: {fileID: 1328694097}
   numPadCanvas: {fileID: 863668028}
+--- !u!114 &1798347292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798347283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43b9f388b006db49b88eefdc1b4fef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMaterial: {fileID: 2100000, guid: 963678e2362ffff4a961ea923937bc8a, type: 2}
+  outlineScaleFactor: 1.2
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1806017167
 GameObject:
   m_ObjectHideFlags: 0
