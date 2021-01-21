@@ -5532,12 +5532,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 515671282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f417f744d27b6e9469f2caaa0fdf8d91, type: 3}
+  m_Script: {fileID: 11500000, guid: b43b9f388b006db49b88eefdc1b4fef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position: {fileID: 515671282}
-  itemButton: {fileID: 1773969146}
-  sound: {fileID: 2064890872}
+  outlineMaterial: {fileID: 2100000, guid: 963678e2362ffff4a961ea923937bc8a, type: 2}
+  outlineScaleFactor: 1.2
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &515671284
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5551,6 +5551,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.52, y: 0.51, z: 0.35}
   m_Center: {x: 0.015221611, y: -0.00000003725291, z: 0.00002544141}
+--- !u!114 &515671285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515671282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf2e88acc0e3434db6b938ce99d04a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemButton: {fileID: 9152439793885235007, guid: 8042b2ed5db60e14d81530e69c0783dd,
+    type: 3}
+  distanceToInteract: 0
+  PressText: {fileID: 1328694097}
+  sound: {fileID: 2064890872}
 --- !u!1 &522503183
 GameObject:
   m_ObjectHideFlags: 0
