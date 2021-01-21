@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Interactables\NumPadInteractV2.cs" />
     <Compile Include="Assets\Scripts\Keys\Antiguos\BasementDrawerKey.cs" />
     <Compile Include="Assets\Scripts\Keys\Antiguos\BasementLockerKey.cs" />
+    <Compile Include="Assets\Scripts\Keys\BasementDrawers_KEY.cs" />
     <Compile Include="Assets\Scripts\Keys\BasementLocker_KEY.cs" />
     <Compile Include="Assets\Scripts\LogoManager.cs" />
     <Compile Include="Assets\Scripts\Menus\GameOverMenu.cs" />
