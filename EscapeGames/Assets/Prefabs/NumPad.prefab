@@ -572,6 +572,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   "contrase\xF1aEscrita": {fileID: 1376925258510756192}
   "contrase\xF1a": 0000
+  numPad: {fileID: 0}
+  correctSound: {fileID: 0}
+  wrongSound: {fileID: 0}
 --- !u!1 &1376925258057535710
 GameObject:
   m_ObjectHideFlags: 0
