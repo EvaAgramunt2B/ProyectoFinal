@@ -9361,10 +9361,6 @@ PrefabInstance:
       propertyPath: PressText
       value: 
       objectReference: {fileID: 1328694097}
-    - target: {fileID: 1960778583, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1960778585, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
       propertyPath: soundFlashlightOn
       value: 
@@ -13982,7 +13978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1430354026
 GameObject:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13999,7 +13995,7 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &1430354027
 Transform:
-  m_ObjectHideFlags: 11
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14013,7 +14009,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1430354028
 MonoBehaviour:
-  m_ObjectHideFlags: 27
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
