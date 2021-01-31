@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Interactables\Antiguos\LockerWithObject.cs" />
     <Compile Include="Assets\Scripts\Interactables\Antiguos\Lockers.cs" />
     <Compile Include="Assets\Scripts\Interactables\Antiguos\PickUp.cs" />
+    <Compile Include="Assets\Scripts\Interactables\CajaFusibles.cs" />
     <Compile Include="Assets\Scripts\Interactables\DrawersV2.cs" />
     <Compile Include="Assets\Scripts\Interactables\Highlight.cs" />
     <Compile Include="Assets\Scripts\Interactables\InspeccionarElementos.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\Scripts\Interactables\NumPadInteract.cs" />
     <Compile Include="Assets\Scripts\Interactables\NumPadInteractV2.cs" />
     <Compile Include="Assets\Scripts\Interactables\Observe.cs" />
+    <Compile Include="Assets\Scripts\Interactables\SimonDice.cs" />
     <Compile Include="Assets\Scripts\Keys\Antiguos\BasementDrawerKey.cs" />
     <Compile Include="Assets\Scripts\Keys\Antiguos\BasementLockerKey.cs" />
     <Compile Include="Assets\Scripts\Keys\BasementDrawers_KEY.cs" />
