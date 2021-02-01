@@ -6114,12 +6114,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -529042102174429997, guid: 9110899a2f891614c94b22cbabfe96d5, type: 3}
---- !u!1 &1786610322 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6276627959375405884, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
-    type: 3}
-  m_PrefabInstance: {fileID: 1962811578}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1792458949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6776,14 +6770,9 @@ PrefabInstance:
       objectReference: {fileID: 1340109296}
     - target: {fileID: 6276627959180272456, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
         type: 3}
-      propertyPath: numPad
+      propertyPath: emilyTalkOpen
       value: 
-      objectReference: {fileID: 1786610322}
-    - target: {fileID: 6276627959375405884, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1962811579}
     - target: {fileID: 6276627959375405885, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -6791,6 +6780,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68b1606a31f3b014b9ebd4e86a50fb27, type: 3}
+--- !u!82 &1962811579 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6229984021045718429, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
+    type: 3}
+  m_PrefabInstance: {fileID: 1962811578}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1979004066 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4997349707324278560, guid: 9110899a2f891614c94b22cbabfe96d5,
