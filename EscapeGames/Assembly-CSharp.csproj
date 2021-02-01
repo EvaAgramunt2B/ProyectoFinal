@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\Interactables\Antiguos\Lockers.cs" />
     <Compile Include="Assets\Scripts\Interactables\Antiguos\PickUp.cs" />
     <Compile Include="Assets\Scripts\Interactables\CajaFusibles.cs" />
+    <Compile Include="Assets\Scripts\Interactables\CajaTrastero.cs" />
     <Compile Include="Assets\Scripts\Interactables\DrawersV2.cs" />
     <Compile Include="Assets\Scripts\Interactables\Highlight.cs" />
     <Compile Include="Assets\Scripts\Interactables\InspeccionarElementos.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\Scripts\Keys\Antiguos\BasementLockerKey.cs" />
     <Compile Include="Assets\Scripts\Keys\BasementDrawers_KEY.cs" />
     <Compile Include="Assets\Scripts\Keys\BasementLocker_KEY.cs" />
+    <Compile Include="Assets\Scripts\Keys\TraseroCaja_KEY.cs" />
     <Compile Include="Assets\Scripts\LogoManager.cs" />
     <Compile Include="Assets\Scripts\Menus\GameOverMenu.cs" />
     <Compile Include="Assets\Scripts\Menus\LoadingMain.cs" />
