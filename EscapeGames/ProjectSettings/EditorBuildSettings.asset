@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading.unity
     guid: 23719fae226ac754d81f62b3598ff1a0
   - enabled: 1
+    path: Assets/Scenes/House.unity
+    guid: a7b29e21be1568743aee358793830ba1
+  - enabled: 1
     path: Assets/Scenes/basement.unity
     guid: 416c1f9f009d36946bbd4ac538edec08
   - enabled: 1
@@ -23,7 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Victory.unity
     guid: a2111aa213939644883bbfcf38a72c63
-  - enabled: 1
-    path: Assets/Scenes/House.unity
-    guid: a7b29e21be1568743aee358793830ba1
   m_configObjects: {}
