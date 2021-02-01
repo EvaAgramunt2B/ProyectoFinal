@@ -4038,7 +4038,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 1
+  m_Intensity: 7.38
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -4140,7 +4140,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 7.38
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4684,7 +4684,7 @@ MonoBehaviour:
   itemButton: {fileID: 9152439793885235007, guid: 8042b2ed5db60e14d81530e69c0783dd,
     type: 3}
   distanceToInteract: 0
-  PressText: {fileID: 1328694097}
+  cursor: {fileID: 0}
   sound: {fileID: 2064890872}
 --- !u!1001 &525068073
 PrefabInstance:
@@ -6653,9 +6653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48b9dbcc2103737478e67a4cfaa0c6fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceToInteract: 0
   CantOpenTxt: {fileID: 1459740756}
-  PressText: {fileID: 1328694097}
+  cursor: {fileID: 0}
   camera: {fileID: 1568725313}
   mainCamera: {fileID: 943349789}
 --- !u!1001 &788581832
@@ -7956,7 +7955,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1035753211
 Transform:
   m_ObjectHideFlags: 0
@@ -12748,7 +12747,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 1
+  m_Intensity: 7.38
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -12850,7 +12849,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 7.38
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -13611,7 +13610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceToInteract: 0
-  PressText: {fileID: 1328694097}
+  cursor: {fileID: 0}
   numPadCanvas: {fileID: 863668028}
 --- !u!1001 &1817711055
 PrefabInstance:
@@ -13877,7 +13876,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 1
+  m_Intensity: 7.38
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -13979,7 +13978,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 7.38
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14744,8 +14743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 9152439793885235007, guid: 8042b2ed5db60e14d81530e69c0783dd,
     type: 3}
-  distanceToInteract: 0
-  PressText: {fileID: 1328694097}
+  cursor: {fileID: 0}
   sound: {fileID: 2064890872}
 --- !u!114 &1873924803
 MonoBehaviour:
