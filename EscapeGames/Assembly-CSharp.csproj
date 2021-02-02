@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Interactables\Antiguos\LockerWithObject.cs" />
     <Compile Include="Assets\Scripts\Interactables\Antiguos\Lockers.cs" />
     <Compile Include="Assets\Scripts\Interactables\Antiguos\PickUp.cs" />
+    <Compile Include="Assets\Scripts\Interactables\BookInteract.cs" />
     <Compile Include="Assets\Scripts\Interactables\CajaFusibles.cs" />
     <Compile Include="Assets\Scripts\Interactables\CajaTrastero.cs" />
     <Compile Include="Assets\Scripts\Interactables\DrawersV2.cs" />
