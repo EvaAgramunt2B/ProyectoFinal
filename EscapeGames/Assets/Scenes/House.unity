@@ -4032,7 +4032,7 @@ PrefabInstance:
     - target: {fileID: 369451026184276318, guid: cce6a29542cc64f4ab5d05b21375c055,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.206
+      value: -12.36
       objectReference: {fileID: 0}
     - target: {fileID: 369451026184276318, guid: cce6a29542cc64f4ab5d05b21375c055,
         type: 3}
@@ -6137,7 +6137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1649419823
 Transform:
   m_ObjectHideFlags: 0
@@ -7505,39 +7505,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PanelNumerico
       objectReference: {fileID: 0}
-    - target: {fileID: 4806822855543197611, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4914295898905857741, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
         type: 3}
       propertyPath: cursor
       value: 
       objectReference: {fileID: 1340109296}
-    - target: {fileID: 6276627959180272456, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
-        type: 3}
-      propertyPath: emilyTalkOpen
-      value: 
-      objectReference: {fileID: 1962811579}
-    - target: {fileID: 6276627959375405884, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6276627959375405885, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68b1606a31f3b014b9ebd4e86a50fb27, type: 3}
---- !u!82 &1962811579 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 6229984021045718429, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
-    type: 3}
-  m_PrefabInstance: {fileID: 1962811578}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1979004066 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4997349707324278560, guid: 9110899a2f891614c94b22cbabfe96d5,

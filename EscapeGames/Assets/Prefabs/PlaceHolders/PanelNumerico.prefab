@@ -202,7 +202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceToInteract: 0
   cursor: {fileID: 0}
-  numPadCanvas: {fileID: 6276627959180272454}
+  numPadCanvas: {fileID: 6276627959375405884}
 --- !u!1 &4806822855543197611
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,14 +821,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1376925259365436045, guid: 3c464f8689f51b544bb7e423c5d6e24c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c464f8689f51b544bb7e423c5d6e24c, type: 3}
---- !u!1 &6276627959180272454 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1376925257933245175, guid: 3c464f8689f51b544bb7e423c5d6e24c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4900160373004855729}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6276627959180272455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1376925257933245174, guid: 3c464f8689f51b544bb7e423c5d6e24c,
@@ -841,7 +840,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 4900160373004855729}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6276627959180272454}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03ea646bc82dd174a9e70fc75dbbeea8, type: 3}
