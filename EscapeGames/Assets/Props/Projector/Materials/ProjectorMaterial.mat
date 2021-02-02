@@ -174,8 +174,8 @@ Material:
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _EmissiveColorMode: 1
-    - _EmissiveExposureWeight: 0.06
-    - _EmissiveIntensity: 1
+    - _EmissiveExposureWeight: 0
+    - _EmissiveIntensity: 30
     - _EmissiveIntensityUnit: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
@@ -246,7 +246,7 @@ Material:
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
-    - _UseEmissiveIntensity: 0
+    - _UseEmissiveIntensity: 1
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
@@ -260,7 +260,7 @@ Material:
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissiveColor: {r: 0.9150943, g: 0.8969508, b: 0.5222944, a: 1}
+    - _EmissiveColor: {r: 27.45283, g: 26.908524, b: 15.668832, a: 30}
     - _EmissiveColorLDR: {r: 0.9150943, g: 0.8969508, b: 0.5222944, a: 1}
     - _FirstOutlineColor: {r: 1, g: 0, b: 0, a: 0.5}
     - _InnerColor: {r: 1, g: 1, b: 0, a: 0.5}
