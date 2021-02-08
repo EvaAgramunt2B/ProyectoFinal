@@ -2621,7 +2621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &230351553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8025,7 +8025,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820080605}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -10164,6 +10164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player V2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047412408962961930, guid: cce6a29542cc64f4ab5d05b21375c055,
+        type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
@@ -13141,7 +13146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1649419823
 Transform:
   m_ObjectHideFlags: 0
@@ -13867,9 +13872,9 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 118.6
+  m_Intensity: 132.8
   m_EnableSpotReflector: 0
-  m_LuxAtDistance: 0.98
+  m_LuxAtDistance: 0.7
   m_InnerSpotPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
@@ -13964,13 +13969,13 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692902899}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 113.90344
-  m_Range: 0.58
+  m_Intensity: 65.072
+  m_Range: 0.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
