@@ -31,7 +31,7 @@ Material:
     - _BaseColorMap:
         m_Texture: {fileID: 8600000, guid: a06893e3495f5c046add7a301ae447f7, type: 2}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 5, y: 0}
+        m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -207,7 +207,7 @@ Material:
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
     - _SurfaceType: 0
-    - _TexWorldScale: 3.19
+    - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
     - _TransmissionEnable: 1
