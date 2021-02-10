@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\CharacterScripts\PlayerBehaviourV2.cs" />
     <Compile Include="Assets\Scripts\CuentaAtras.cs" />
     <Compile Include="Assets\Scripts\Doors\BasementDoor.cs" />
+    <Compile Include="Assets\Scripts\Doors\OutsideDoors.cs" />
     <Compile Include="Assets\Scripts\Examine.cs" />
     <Compile Include="Assets\Scripts\Flashlight\Antiguo\FlashlightPickUp.cs" />
     <Compile Include="Assets\Scripts\Flashlight\Flashlight.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\Scripts\Keys\Antiguos\BasementLockerKey.cs" />
     <Compile Include="Assets\Scripts\Keys\BasementDrawers_KEY.cs" />
     <Compile Include="Assets\Scripts\Keys\BasementLocker_KEY.cs" />
+    <Compile Include="Assets\Scripts\Keys\PuertasJardin_KEYS.cs" />
     <Compile Include="Assets\Scripts\Keys\TraseroCaja_KEY.cs" />
     <Compile Include="Assets\Scripts\LogoManager.cs" />
     <Compile Include="Assets\Scripts\Menus\GameOverMenu.cs" />
