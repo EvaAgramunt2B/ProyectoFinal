@@ -12064,7 +12064,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 220
+  m_Intensity: 251
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 6.21
   m_InnerSpotPercent: 100
@@ -12166,7 +12166,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 8484.103
+  m_Intensity: 9679.589
   m_Range: 7.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -23526,7 +23526,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 132.8
+  m_Intensity: 30
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 0.7
   m_InnerSpotPercent: 100
@@ -23628,7 +23628,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 65.072
+  m_Intensity: 14.7
   m_Range: 0.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -23671,7 +23671,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 4926
+  m_ColorTemperature: 5785
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
